@@ -1,11 +1,14 @@
-# Hi there 👋 Welcome to my Portfolio
+# Welcome to my Portfolio
 
-# About me:
+## About me:
 
 🧑‍🦱 I'm Henrique Tadeu da Silva
 📚 I'm System Analysis and Development student
 🏡 São José dos Campos, SP
 
-# My projects:
+## My projects:
+
+|API|Games|Misc|
+|[!1st Semester](https://github.com/CodeDontBlow/Scrum-Tutor)|Hangman||
 
 -->
