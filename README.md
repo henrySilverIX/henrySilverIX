@@ -10,7 +10,7 @@
 
 |API|Games|Misc|
 |---|---|---|
-|[1st Semester](https://github.com/CodeDontBlow/Scrum-Tutor)|Hangman||
+|[1st Semester](https://github.com/CodeDontBlow/Scrum-Tutor)|[Hangman](https://github.com/henrySilverIX/Hangman-game)||
 |[2nd Semester](https://github.com/CodeDontBlow/DocEye)|||
 
 ## 📖 My knowledge
