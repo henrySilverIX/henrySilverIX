@@ -10,9 +10,10 @@
 
 |API|Games|Misc|
 |---|---|---|
-|[1st Semester](https://github.com/CodeDontBlow/Scrum-Tutor)|[Hangman](https://github.com/henrySilverIX/Hangman-game)||
-|[2nd Semester](https://github.com/CodeDontBlow/DocEye)|||
-|[3rd Semester](https://github.com/CodeDontBlow/PontoLog)|||
+|[1st Semester](https://github.com/CodeDontBlow/Scrum-Tutor)|[Hangman](https://github.com/henrySilverIX/Hangman-game)|[Budget System](https://github.com/henrySilverIX/Budget)|
+|[2nd Semester](https://github.com/CodeDontBlow/DocEye)|[Kanji Game](https://github.com/henrySilverIX/Kanji-game)||
+|[3rd Semester](https://github.com/CodeDontBlow/PontoLog)|[Snake Game](https://github.com/henrySilverIX/Snake-Game)||
+|[4th Semester](https://github.com/CodeDontBlow/Tecsys-Descriptum)|[Geography Game](https://github.com/henrySilverIX/Geography-Game)||
 ## 📖 My knowledge
 
 | Front-end | Back-end | Database | Software Development | Others |
