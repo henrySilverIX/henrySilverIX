@@ -1,6 +1,6 @@
 # Portfólio - Trabalho de Graduação
 
-## 👤 Apresentação do Aluno
+## Apresentação do Aluno
 
 <img src="CAMINHO_DA_SUA_FOTO_AQUI" width="200px" alt="Foto de Henrique Tadeu da Silva">
 
@@ -12,7 +12,7 @@ Sou de **São José dos Campos, São Paulo**, e tenho interesse nas áreas de de
 
 ---
 
-## 🎓 Histórico Acadêmico
+## Histórico Acadêmico
 
 Atualmente, estou cursando **Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Professor Jessen Vidal**.
 
@@ -20,7 +20,7 @@ Antes de ingressar na Fatec, estudei em **[coloque aqui sua última instituiçã
 
 ---
 
-## 💡 Motivação para Entrar na Fatec
+## Motivação para Entrar na Fatec
 
 Minha motivação para ingressar na Fatec veio do interesse pela área de tecnologia e pelo desejo de desenvolver soluções práticas para problemas reais. O modelo de ensino baseado em projetos, especialmente por meio da metodologia API, foi um fator importante, pois permite aplicar conhecimentos técnicos em situações próximas ao mercado de trabalho.
 
@@ -28,7 +28,7 @@ Durante o curso, tive contato com diferentes tecnologias, metodologias de desenv
 
 ---
 
-## 💼 Histórico Profissional
+## Histórico Profissional
 
 Atualmente, estou em busca de oportunidades na área de tecnologia, especialmente em desenvolvimento de software, banco de dados, suporte técnico, infraestrutura, cibersegurança ou áreas relacionadas.
 
@@ -41,15 +41,15 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 
 ---
 
-## 📫 Contatos
+## Contatos
 
 - **E-mail:** [henrysilver.gold@gmail.com](mailto:henrysilver.gold@gmail.com)
 - **GitHub:** [github.com/henrySilverIX](https://github.com/henrySilverIX)
-- **LinkedIn:** [coloque aqui o link do seu LinkedIn]
+- **LinkedIn:** [Henrique Silva](https://www.linkedin.com/in/henrique-t-silva/)
 
 ---
 
-## 🛠️ Principais Conhecimentos
+## Principais Conhecimentos
 
 ### Front-end
 
@@ -88,21 +88,21 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 
 ---
 
-# 📚 Projetos API
+# Projetos API
 
 ## Visão Geral dos Projetos
 
 | Semestre | Ano/Semestre | Empresa Parceira | Projeto | Repositório |
 |---------|--------------|------------------|---------|-------------|
-| 1º Semestre | [Ano-Semestre] | Fatec-SJC | Scrum Tutor | [Acessar](https://github.com/CodeDontBlow/Scrum-Tutor) |
-| 2º Semestre | [Ano-Semestre] | Fatec-SJC | DocEye | [Acessar](https://github.com/CodeDontBlow/DocEye) |
-| 3º Semestre | [Ano-Semestre] | Fatec-SJC | PontoLog | [Acessar](https://github.com/CodeDontBlow/PontoLog) |
-| 4º Semestre | [Ano-Semestre] | Fatec-SJC | Tecsys Descriptum | [Acessar](https://github.com/CodeDontBlow/Tecsys-Descriptum) |
-| 5º Semestre | [Ano-Semestre] | Pro4Tech | Pro4Tech ADS5 | [Acessar](https://github.com/CodeDontBlow/Pro4Tech-ADS5) |
+| 1º Semestre | [2024-1] | Fatec-SJC | Scrum Tutor | [Acessar](https://github.com/CodeDontBlow/Scrum-Tutor) |
+| 2º Semestre | [2024-2] | Fatec-SJC | DocEye | [Acessar](https://github.com/CodeDontBlow/DocEye) |
+| 3º Semestre | [2025-1] | Fatec-SJC | PontoLog | [Acessar](https://github.com/CodeDontBlow/PontoLog) |
+| 4º Semestre | [2025-2] | Fatec-SJC | Tecsys Descriptum | [Acessar](https://github.com/CodeDontBlow/Tecsys-Descriptum) |
+| 5º Semestre | [2026-1] | Pro4Tech | Pro4Tech ADS5 | [Acessar](https://github.com/CodeDontBlow/Pro4Tech-ADS5) |
 
 ---
 
-# 1º Semestre - [Ano-Semestre]
+# 1º Semestre - [2024-1]
 
 ## Projeto: Scrum Tutor
 
@@ -110,7 +110,7 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 
 **Fatec-SJC**
 
-Professor responsável pelos requisitos: **[Nome do professor]**
+Professor responsável pelos requisitos: **[Antônio Egydio São Tiago Graça]**
 
 ### Problema
 
@@ -140,7 +140,7 @@ O sistema permite que o usuário estude conceitos relacionados ao Scrum, visuali
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **[Desenvolvedor / Scrum Master / Product Owner]**.
+Neste projeto, atuei como **[Desenvolvedor]**.
 
 Minhas principais contribuições foram:
 
@@ -167,7 +167,7 @@ Minhas principais contribuições foram:
 
 ---
 
-# 2º Semestre - [Ano-Semestre]
+# 2º Semestre - [2024-2]
 
 ## Projeto: DocEye
 
@@ -200,7 +200,7 @@ A equipe desenvolveu um **sistema [web/desktop/app]** para resolver o problema a
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **[papel no Scrum]**.
+Neste projeto, atuei como **desenvolvedor**.
 
 Minhas principais contribuições foram:
 
@@ -226,7 +226,7 @@ Minhas principais contribuições foram:
 
 ---
 
-# 3º Semestre - [Ano-Semestre]
+# 3º Semestre - [2025-1]
 
 ## Projeto: PontoLog
 
@@ -257,7 +257,7 @@ A equipe desenvolveu um **sistema [web/desktop/app]** voltado para [descreva o o
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **[papel no Scrum]**.
+Neste projeto, atuei como **[Desenvolvedor]**.
 
 Minhas principais contribuições foram:
 
@@ -283,7 +283,7 @@ Minhas principais contribuições foram:
 
 ---
 
-# 4º Semestre - [Ano-Semestre]
+# 4º Semestre - [2025-2]
 
 ## Projeto: Tecsys Descriptum
 
@@ -314,7 +314,7 @@ A equipe desenvolveu um **sistema [web/desktop/app]** para [explique resumidamen
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **[papel no Scrum]**.
+Neste projeto, atuei como **[Desenvolvedor]**.
 
 Minhas principais contribuições foram:
 
@@ -340,7 +340,7 @@ Minhas principais contribuições foram:
 
 ---
 
-# 5º Semestre - [Ano-Semestre]
+# 5º Semestre - [2026-1]
 
 ## Projeto: Pro4Tech ADS5
 
