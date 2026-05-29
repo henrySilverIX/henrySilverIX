@@ -34,10 +34,10 @@ Atualmente, estou em busca de oportunidades na área de tecnologia, especialment
 
 Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalhos anteriores:
 
-- **Empresa:** [Nome da empresa]
-- **Período:** [Mês/Ano - Mês/Ano]
-- **Cargo:** [Nome do cargo]
-- **Atividades:** [Descreva suas principais atribuições]
+- **Empresa:** SuperGeeks
+- **Período:** Maio/2026 - Atualmente
+- **Cargo:** Instrutor
+- **Atividades:** Eu instruo alunos e ensino linguagens de programação como Python e Scratch, além de ensinar desenvolvimento WEB e desenvolvimento de jogos com a engine Godot
 
 ---
 
