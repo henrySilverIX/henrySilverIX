@@ -155,22 +155,22 @@ Minhas principais contribuições foram:
 
 | Tecnologia | Nível de Proficiência |
 |-----------|------------------------|
-| HTML | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| CSS | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Bootstrap | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| JavaScript | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Python | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Flask | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| MySQL | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Git/GitHub | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
+| HTML | Consigo ensinar |
+| CSS | Consigo ensinar |
+| Bootstrap | Faço com autonomia |
+| JavaScript | Faço com autonomia |
+| Python | Consigo ensinar |
+| Flask | Faço com autonomia |
+| MySQL | Faço com autonomia |
+| Git/GitHub | Faço com autonomia |
 
 ### Soft Skills
 
 | Soft Skill | Exemplo de Aplicação |
 |-----------|-----------------------|
-| Comunicação | Durante o desenvolvimento, precisei alinhar com a equipe como as informações da metodologia Scrum seriam apresentadas ao usuário, buscando transformar um conteúdo teórico em uma experiência mais clara e didática. **[REVISAR: substitua por um evento real específico.]** |
+| Comunicação | Durante o desenvolvimento, precisei alinhar com a equipe como as informações da metodologia Scrum seriam apresentadas ao usuário, buscando transformar um conteúdo teórico em uma experiência mais clara e didática. Em uma situação, precisamos nos reunir para falar sobre uma tarefa âncora e fizemos reunião junto para decidir sobre a task em questão |
 | Trabalho em equipe | Colaborei com os demais desenvolvedores na divisão das tarefas das sprints, realizando ajustes de código e validando entregas em conjunto para manter o projeto coerente com o objetivo definido. **[REVISAR: cite uma sprint ou tarefa real.]** |
-| Organização | Acompanhei tarefas e entregas por meio das ferramentas de gestão utilizadas pela equipe, ajudando a manter o desenvolvimento alinhado ao cronograma das sprints. **[REVISAR: cite Trello, GitHub Projects ou outro artefato usado por você.]** |
+| Organização | Acompanhei tarefas e entregas por meio das ferramentas de gestão utilizadas pela equipe, ajudando a manter o desenvolvimento alinhado ao cronograma das sprints. Aqui, utilizamos GitHub, Excel e Trello para nos organizarmos |
 
 ---
 
@@ -233,13 +233,13 @@ Minhas principais contribuições foram:
 
 | Tecnologia | Nível de Proficiência |
 |-----------|------------------------|
-| Java | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| JavaFX | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| MySQL | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Ollama | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Tesseract OCR/Tess4J | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Git/GitHub | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Figma | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
+| Java | [Faço com autonomia |
+| JavaFX | Faço com ajuda |
+| MySQL | Faço com autonomia |
+| Ollama | Faço com autonomia |
+| Tesseract OCR/Tess4J | Faço com ajuda |
+| Git/GitHub | Faço com autonomia |
+| Figma | Faço com ajuda |
 
 ### Soft Skills
 
@@ -310,13 +310,13 @@ Minhas principais contribuições foram:
 
 | Tecnologia | Nível de Proficiência |
 |-----------|------------------------|
-| React | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| TypeScript | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Node.js | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Python | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| PostgreSQL | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| TypeORM | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Git/GitHub | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
+| React | Faço com ajuda |
+| TypeScript | Faço com ajuda |
+| Node.js | Faço com autonomia |
+| Python | Consigo ensinar |
+| PostgreSQL | Faço com ajuda |
+| TypeORM | Ouvi falar |
+| Git/GitHub | Faço com autonomia |
 
 ### Soft Skills
 
@@ -390,14 +390,14 @@ Minhas principais contribuições foram:
 
 | Tecnologia | Nível de Proficiência |
 |-----------|------------------------|
-| Python | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| FastAPI | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Ollama | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| ChromaDB | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| PostgreSQL | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| React | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Docker | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Git | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
+| Python | Consigo ensinar |
+| FastAPI | Ouvi falar|
+| Ollama | Faço com autonomia |
+| ChromaDB | Ouvi falar |
+| PostgreSQL | Faço com ajuda |
+| React | Faço com ajuda |
+| Docker | Faço com ajuda |
+| Git | Faço com autonomia |
 
 ### Soft Skills
 
@@ -473,17 +473,17 @@ Minhas principais contribuições foram:
 
 | Tecnologia | Nível de Proficiência |
 |-----------|------------------------|
-| React Native | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Expo | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Next.js | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| TypeScript | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Nest.js | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Prisma | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| PostgreSQL | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| MongoDB | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Docker | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Swagger | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
-| Git | [REVISAR: Ouvi falar / Faço com ajuda / Faço com autonomia / Consigo ensinar] |
+| React Native | Ouvi falar |
+| Expo | Ouvi falar |
+| Next.js | Faço com autonomia  |
+| TypeScript | Faço com ajuda |
+| Nest.js |Ouvi falar |
+| Prisma | Faço com ajuda|
+| PostgreSQL | Faço com ajuda |
+| MongoDB | Faço com ajuda |
+| Docker | Faço com ajuda |
+| Swagger | Ouvi falar |
+| Git | Faço com autonomia |
 
 ### Soft Skills
 
