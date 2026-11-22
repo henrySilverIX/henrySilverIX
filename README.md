@@ -494,76 +494,93 @@ Minhas principais contribuições foram:
 | Trabalho em equipe | Colaborei com outros integrantes para integrar funcionalidades entre mobile, web e back-end, respeitando as responsabilidades de cada frente de desenvolvimento. **[REVISAR: cite uma integração real.]** |
 | Organização | Acompanhei tarefas no Jira e mantive o versionamento das entregas pelo Git, contribuindo para que as funcionalidades fossem entregues dentro das sprints planejadas. **[REVISAR: cite issue, branch ou sprint real.]** |
 ---
-6º Semestre - 2026-2
-Projeto: Camplana
-Empresa Parceira
-Dom Rock
+# 6º Semestre - 2026-2
 
-Área de atuação: Tecnologia e soluções orientadas a dados para apoio à gestão e a decisões de negócio.
-Problema
+## Projeto: Camplana
+
+### Empresa Parceira
+
+**Dom Rock**
+
+Área de atuação: **Tecnologia e soluções orientadas a dados para apoio à gestão e a decisões de negócio.**
+
+### Problema
+
 Empresas que trabalham com campanhas comerciais precisam atualizar frequentemente regras de comissionamento em função de metas, produtos, equipes, períodos e acordos comerciais. Quando essas regras não são registradas e acompanhadas de modo estruturado, aumentam os riscos de inconsistências, conflitos entre critérios e perda de rastreabilidade. Além disso, definir uma campanha sem estimar previamente seu impacto financeiro pode comprometer o orçamento e dificultar a avaliação e a aprovação pelos responsáveis.
-Solução
-A equipe desenvolveu o Camplana, uma plataforma web para planejar, simular e gerenciar regras de comissionamento de vendas com apoio da agente de inteligência artificial generativa Lana. O gerente descreve uma campanha em linguagem natural, revisa parâmetros extraídos pela IA e realiza simulações sobre dados de vendas e recursos humanos. O sistema apresenta o impacto estimado sobre as comissões, compara cenários e oferece mecanismos de autenticação, controle de perfis e acompanhamento das campanhas. Os cálculos da simulação são executados e validados por código, em vez de depender de números fornecidos diretamente pelo modelo de linguagem.
-Links dos Repositórios Git
-- Camplana — repositório principal
-- Front-end — Vue 3
-- Back-end — Spring Boot
-- Lana — agente de inteligência artificial
-Tecnologias Utilizadas
-Tecnologia	Utilização no Projeto
-Vue 3	Desenvolvimento da interface web, chat da Lana, formulários e painéis de acompanhamento.
-TypeScript	Tipagem de componentes, serviços e dados da interface.
-Vite	Ambiente de desenvolvimento e compilação do front-end.
-Pinia	Gerenciamento do estado do chat e da interface.
-Vue Router	Navegação e proteção de rotas por perfil de usuário.
-Axios	Comunicação HTTP do front-end com a API REST.
-Tailwind CSS	Estilização da interface web.
-Vitest	Testes automatizados do front-end.
-Java 17	Linguagem principal do back-end.
-Spring Boot 4	Desenvolvimento da API REST e implementação de regras de negócio.
-Spring Security e JWT	Autenticação, autorização e controle de acesso por perfil.
-Spring Data JPA	Persistência e consultas às entidades do sistema.
-PostgreSQL	Armazenamento de usuários, campanhas, dados de vendas e comissionamento.
-Flyway	Versionamento e aplicação das migrações do banco de dados.
-Maven	Gerenciamento de dependências e compilação do back-end Java.
-Python	Implementação do agente Lana e das rotinas de simulação.
-FastAPI	Interface HTTP do microsserviço de IA.
-LangGraph	Orquestração dos fluxos e ferramentas utilizados pela agente Lana.
-gRPC	Comunicação entre o back-end Java e o serviço Python da Lana.
-Docker e Docker Compose	Padronização e execução conjunta dos serviços da aplicação.
-Git e GitHub	Versionamento, integração do trabalho da equipe e organização dos repositórios.
 
+### Solução
 
-Contribuições Pessoais
-Neste projeto, atuei como Desenvolvedor Full Stack, trabalhando com Vue 3 e TypeScript no front-end, Java e Spring Boot no back-end e contribuindo também com a lógica de simulação em Python no serviço Lana. As entregas abaixo foram identificadas em commits associados ao meu perfil no GitHub. Algumas alterações foram posteriormente integradas ou refinadas por outros integrantes da equipe.
-- Tela e fluxo de auditoria (A6-103): implementei uma interface de consulta em modo somente leitura para o perfil de Auditor, utilizando componentes Vue, serviços TypeScript e integração com APIs de campanhas, versões, decisões, histórico de conversas e solicitações de correção. A tela contempla filtros, comparação entre versões, apresentação das correções da base e tratamento de ausência de dados ou falhas de consulta. Também foram incluídos testes automatizados e documentação de utilização. Commit do front-end.
-- API e autorização para auditoria (A6-103): no back-end Java/Spring Boot, trabalhei na criação e adaptação de endpoints para consultas globais de campanhas e correções, bem como no acesso a detalhes, versões, conversas e resultados persistidos. A implementação inclui controle de acesso por perfil via Spring Security, regras para impedir operações de escrita pelo Auditor, ajustes de DTOs e repositórios, migração Flyway e testes de API e segurança. Parte do código incorporou uma dependência de outra tarefa da equipe (A6-102), documentada no próprio commit. Commit do back-end.
-- Intercorrências de Recursos Humanos com aprovação (A6-111): desenvolvi alterações no fluxo de solicitações de correção relacionadas a afastamento, férias, licença-maternidade, cobertura de loja e demissão. O serviço contempla validação de dados, prevenção de duplicidades, estados de solicitação e autorização para que a decisão seja tomada por um Supervisor diferente do autor, além de endpoints, testes automatizados e documentação dos contratos da API. Commit do back-end.
-- Envio de campanhas vigentes para simulação (A6-74): implementei a preparação e o envio do contexto de campanhas sobrepostas ao serviço Lana, para permitir o cálculo dos percentuais de comissão vigentes por marca e cargo e a identificação de conflitos entre regras comerciais. O trabalho envolveu serviços Java, repositórios, integração com o fluxo de simulação, testes e documentação técnica. Commit do back-end.
-- Cálculo de comissão vigente no agente Lana (A6-74): desenvolvi lógica em Python para considerar histórico e vigência de campanhas no cálculo de comissões por marca e cargo, detectar conflitos e incluir essas informações na resposta das simulações. Foram alterados DTOs Pydantic, a rota e o serviço de simulação; também foram criados testes automatizados e documentação. Commit do Lana.
-Durante essas entregas, utilizei Git e GitHub para versionamento, além de VSCodium e assistência do Codex, revisando e integrando o código ao projeto. Os commits constituem evidências das alterações registradas sob minha conta, mas não permitem determinar isoladamente o grau de participação de outras pessoas ou da assistência de IA.
-Hard Skills
-Tecnologia	Evidência de aplicação pessoal	Nível de proficiência
-Vue 3	Tela, componentes e navegação de auditoria (A6-103)	[DEFINIR: autoavaliação]
-TypeScript	Serviços, tipagem, formatação e testes do front-end	[DEFINIR: autoavaliação]
-Java	Controllers, services, DTOs, regras de negócio e testes	[DEFINIR: autoavaliação]
-Spring Boot / APIs REST	Rotas de auditoria e correções de RH; integração de simulações	[DEFINIR: autoavaliação]
-Spring Security	Regras de acesso e restrição de escrita do perfil Auditor	[DEFINIR: autoavaliação]
-Spring Data JPA	Consultas e repositórios do back-end	[DEFINIR: autoavaliação]
-Flyway / SQL	Migração da funcionalidade de auditoria	[DEFINIR: autoavaliação]
-Python	Implementação de cálculo de comissões e conflitos na Lana	[DEFINIR: autoavaliação]
-Pydantic	Contratos de entrada e saída da simulação Python	[DEFINIR: autoavaliação]
-Testes automatizados	Testes de componentes, serviços, API, segurança e vigência	[DEFINIR: autoavaliação]
-Git / GitHub	Commits distribuídos entre três repositórios	Faço com autonomia
+A equipe desenvolveu o **Camplana**, uma **plataforma web** para planejar, simular e gerenciar regras de comissionamento de vendas com apoio da agente de inteligência artificial generativa **Lana**. O gerente descreve uma campanha em linguagem natural, revisa parâmetros extraídos pela IA e realiza simulações sobre dados de vendas e recursos humanos. O sistema apresenta o impacto estimado sobre as comissões, compara cenários e oferece mecanismos de autenticação, controle de perfis e acompanhamento das campanhas. Os cálculos da simulação são executados e validados por código, em vez de depender de números fornecidos diretamente pelo modelo de linguagem.
 
+### Links dos Repositórios Git
 
-Escala de proficiência exigida pelo TG: Ouvi falar; Faço/uso com ajuda; Faço/uso com autonomia; Consigo ensinar. Os níveis não foram presumidos a partir do número de commits.
-Soft Skills
-Soft Skill	Evidência específica e ponto para validação pessoal
-Resolução de problemas	Na tarefa A6-111, implementei validações para evitar solicitações de intercorrência duplicadas e impedir que o próprio autor aprovasse sua solicitação. Isso exigiu tratar retornos de erro e casos de borda. [REVISAR: relatar a dificuldade concreta enfrentada e como a resolveu.]
-Pensamento analítico	Na tarefa A6-74, foi necessário considerar períodos de vigência e campanhas sobrepostas para calcular comissões corretamente e sinalizar conflitos. [REVISAR: detalhar uma regra de negócio específica que exigiu análise.]
-Organização	Nas tarefas A6-103, A6-111 e A6-74, os commits incluem documentação e testes junto das implementações, permitindo rastrear contratos e critérios de validação. [REVISAR: explicar como organizou suas atividades ao longo das sprints.]
-Comunicação e trabalho em equipe	A integração entre a API Java e a simulação Python da A6-74, assim como a dependência da A6-102 documentada na A6-103, mostram pontos que exigiram compatibilizar contratos da equipe. [REVISAR: citar uma conversa ou decisão real; o Git, sozinho, não comprova a interação interpessoal.]
+- [Camplana — repositório principal](https://github.com/CodeDontBlow/domrock-Camplana)
+- [Front-end — Vue 3](https://github.com/CodeDontBlow/domrock-frontend)
+- [Back-end — Spring Boot](https://github.com/CodeDontBlow/domrock-backend)
+- [Lana — agente de inteligência artificial](https://github.com/CodeDontBlow/domrock-lana)
+
+### Tecnologias Utilizadas
+
+|Tecnologia|Utilização no Projeto|
+|---|---|
+|Vue 3|Desenvolvimento da interface web, chat da Lana, formulários e painéis de acompanhamento.|
+|TypeScript|Tipagem de componentes, serviços e dados da interface.|
+|Vite|Ambiente de desenvolvimento e compilação do front-end.|
+|Pinia|Gerenciamento do estado do chat e da interface.|
+|Vue Router|Navegação e proteção de rotas por perfil de usuário.|
+|Axios|Comunicação HTTP do front-end com a API REST.|
+|Tailwind CSS|Estilização da interface web.|
+|Vitest|Testes automatizados do front-end.|
+|Java 17|Linguagem principal do back-end.|
+|Spring Boot 4|Desenvolvimento da API REST e implementação de regras de negócio.|
+|Spring Security e JWT|Autenticação, autorização e controle de acesso por perfil.|
+|Spring Data JPA|Persistência e consultas às entidades do sistema.|
+|PostgreSQL|Armazenamento de usuários, campanhas, dados de vendas e comissionamento.|
+|Flyway|Versionamento e aplicação das migrações do banco de dados.|
+|Maven|Gerenciamento de dependências e compilação do back-end Java.|
+|Python|Implementação do agente Lana e das rotinas de simulação.|
+|FastAPI|Interface HTTP do microsserviço de IA.|
+|LangGraph|Orquestração dos fluxos e ferramentas utilizados pela agente Lana.|
+|gRPC|Comunicação entre o back-end Java e o serviço Python da Lana.|
+|Docker e Docker Compose|Padronização e execução conjunta dos serviços da aplicação.|
+|Git e GitHub|Versionamento, integração do trabalho da equipe e organização dos repositórios.|
+
+### Contribuições Pessoais
+
+Neste projeto, atuei como **Desenvolvedor Full Stack**, trabalhando com **Vue 3 e TypeScript no front-end**, **Java e Spring Boot no back-end** e contribuindo também com a **lógica de simulação em Python no serviço Lana**. As entregas abaixo foram identificadas em commits associados ao meu perfil no GitHub. Algumas alterações foram posteriormente integradas ou refinadas por outros integrantes da equipe.
+
+- **Tela e fluxo de auditoria (A6-103):** implementei uma interface de consulta em modo **somente leitura** para o perfil de Auditor, utilizando componentes Vue, serviços TypeScript e integração com APIs de campanhas, versões, decisões, histórico de conversas e solicitações de correção. A tela contempla filtros, comparação entre versões, apresentação das correções da base e tratamento de ausência de dados ou falhas de consulta. Também foram incluídos testes automatizados e documentação de utilização. [Commit do front-end](https://github.com/CodeDontBlow/domrock-frontend/commit/92f1cb075acd2a0f0f01f6b4271900f288175be4).
+- **API e autorização para auditoria (A6-103):** no back-end Java/Spring Boot, trabalhei na criação e adaptação de endpoints para consultas globais de campanhas e correções, bem como no acesso a detalhes, versões, conversas e resultados persistidos. A implementação inclui controle de acesso por perfil via Spring Security, regras para impedir operações de escrita pelo Auditor, ajustes de DTOs e repositórios, migração Flyway e testes de API e segurança. Parte do código incorporou uma dependência de outra tarefa da equipe (A6-102), documentada no próprio commit. [Commit do back-end](https://github.com/CodeDontBlow/domrock-backend/commit/c45c11c50f6b5858b69599f30c6bd5e2102f23bd).
+- **Intercorrências de Recursos Humanos com aprovação (A6-111):** desenvolvi alterações no fluxo de solicitações de correção relacionadas a afastamento, férias, licença-maternidade, cobertura de loja e demissão. O serviço contempla validação de dados, prevenção de duplicidades, estados de solicitação e autorização para que a decisão seja tomada por um Supervisor diferente do autor, além de endpoints, testes automatizados e documentação dos contratos da API. [Commit do back-end](https://github.com/CodeDontBlow/domrock-backend/commit/757285d499891915f738cb56814920992167be18).
+- **Envio de campanhas vigentes para simulação (A6-74):** implementei a preparação e o envio do contexto de campanhas sobrepostas ao serviço Lana, para permitir o cálculo dos percentuais de comissão vigentes por marca e cargo e a identificação de conflitos entre regras comerciais. O trabalho envolveu serviços Java, repositórios, integração com o fluxo de simulação, testes e documentação técnica. [Commit do back-end](https://github.com/CodeDontBlow/domrock-backend/commit/380b1eae2189a130ae0dcdc69604cb4d809206d4).
+- **Cálculo de comissão vigente no agente Lana (A6-74):** desenvolvi lógica em Python para considerar histórico e vigência de campanhas no cálculo de comissões por marca e cargo, detectar conflitos e incluir essas informações na resposta das simulações. Foram alterados DTOs Pydantic, a rota e o serviço de simulação; também foram criados testes automatizados e documentação. [Commit do Lana](https://github.com/CodeDontBlow/domrock-lana/commit/93a63e58ac299d6597dda927458afe492cdf6e2e).
+
+Durante essas entregas, utilizei **Git e GitHub** para versionamento, além de **VSCodium e assistência do Codex**, revisando e integrando o código ao projeto. Os commits constituem evidências das alterações registradas sob minha conta, mas não permitem determinar isoladamente o grau de participação de outras pessoas ou da assistência de IA.
+
+### Hard Skills
+
+| Tecnologia              | Evidência de aplicação pessoal                                 | Nível de proficiência |
+| ----------------------- | -------------------------------------------------------------- | --------------------- |
+| Vue 3                   | Tela, componentes e navegação de auditoria (A6-103)            | Faço com ajuda        |
+| TypeScript              | Serviços, tipagem, formatação e testes do front-end            | Faço com autonomia    |
+| Java                    | Controllers, services, DTOs, regras de negócio e testes        | Consigo ensinar       |
+| Spring Boot / APIs REST | Rotas de auditoria e correções de RH; integração de simulações | Faça com autonomia    |
+| Spring Security         | Regras de acesso e restrição de escrita do perfil Auditor      | Faço com ajuda        |
+| Spring Data JPA         | Consultas e repositórios do back-end                           | Faço com ajuda        |
+| Flyway / SQL            | Migração da funcionalidade de auditoria                        | Faço com ajuda        |
+| Python                  | Implementação de cálculo de comissões e conflitos na Lana      | Consigo ensinar       |
+| Pydantic                | Contratos de entrada e saída da simulação Python               | Faço com ajuda        |
+| Testes automatizados    | Testes de componentes, serviços, API, segurança e vigência     | Faço com autonomia    |
+| Git / GitHub            | Commits distribuídos entre três repositórios                   | Faço com autonomia    |
+
+### Soft Skills
+
+| Soft Skill                       | Evidência específica e ponto para validação pessoal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Resolução de problemas           | Durante o desenvolvimento das tarefas A6-103 e A6-111, encontrei dificuldades para compreender determinados requisitos e regras de negócio. Para superar essas dificuldades, consultei as descrições das tarefas no Product Backlog e esclareci dúvidas com os integrantes da equipe durante as reuniões. Esse processo contribuiu para interpretar corretamente o comportamento esperado das funcionalidades antes de implementá-las.                                                                                                 |
+| Pensamento analítico             | Na implementação das tarefas A6-103 (Auditoria) e A6-111 (Intercorrências de RH), precisei analisar as diferentes permissões dos perfis de usuários. Na funcionalidade de Auditoria, era necessário garantir que o Auditor pudesse consultar informações sem realizar alterações. Já nas intercorrências de RH, foi necessário compreender a regra que impede o autor de aprovar sua própria solicitação. Essa análise contribuiu para implementar as restrições de acesso e as validações previstas nos requisitos.                   |
+| Organização                      | Durante as sprints, mantive o hábito de consultar regularmente o Product Backlog para acompanhar as tarefas sob minha responsabilidade, verificar seus requisitos e identificar dependências com outras funcionalidades. Nas tarefas A6-103 e A6-111, utilizei as descrições e os critérios de aceitação como referência para orientar o desenvolvimento, esclarecendo dúvidas com os colegas quando necessário.                                                                                                                       |
+| Comunicação e trabalho em equipe | Durante as reuniões realizadas em sala de aula, participei de discussões com os integrantes da equipe para esclarecer dúvidas relacionadas às regras de negócio e às responsabilidades dos diferentes perfis do sistema, como Gerente, Supervisor e Auditor. Esses alinhamentos foram importantes para compreender quais operações cada perfil poderia realizar, especialmente nas funcionalidades de Auditoria e Intercorrências de RH, contribuindo para que minhas implementações respeitassem os requisitos definidos pela equipe. |
 
 
 
