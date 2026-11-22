@@ -493,6 +493,98 @@ Minhas principais contribuições foram:
 | Comunicação | Alinhei com a equipe como o fluxo de triagem, atendimento e acompanhamento de chamados deveria funcionar para clientes, atendentes e administradores. **[REVISAR: cite uma reunião, sprint ou decisão real.]** |
 | Trabalho em equipe | Colaborei com outros integrantes para integrar funcionalidades entre mobile, web e back-end, respeitando as responsabilidades de cada frente de desenvolvimento. **[REVISAR: cite uma integração real.]** |
 | Organização | Acompanhei tarefas no Jira e mantive o versionamento das entregas pelo Git, contribuindo para que as funcionalidades fossem entregues dentro das sprints planejadas. **[REVISAR: cite issue, branch ou sprint real.]** |
+---
+# 6º Semestre - 2026-2
+
+## Projeto: Camplana
+
+### Empresa Parceira
+
+**Dom Rock**
+
+Área de atuação: **Tecnologia e soluções orientadas a dados para apoio à gestão e a decisões de negócio.**
+
+### Problema
+
+Empresas que trabalham com campanhas comerciais precisam atualizar frequentemente regras de comissionamento em função de metas, produtos, equipes, períodos e acordos comerciais. Quando essas regras não são registradas e acompanhadas de modo estruturado, aumentam os riscos de inconsistências, conflitos entre critérios e perda de rastreabilidade. Além disso, definir uma campanha sem estimar previamente seu impacto financeiro pode comprometer o orçamento e dificultar a avaliação e a aprovação pelos responsáveis.
+
+### Solução
+
+A equipe desenvolveu o **Camplana**, uma **plataforma web** para planejar, simular e gerenciar regras de comissionamento de vendas com apoio da agente de inteligência artificial generativa **Lana**. O gerente descreve uma campanha em linguagem natural, revisa parâmetros extraídos pela IA e realiza simulações sobre dados de vendas e recursos humanos. O sistema apresenta o impacto estimado sobre as comissões, compara cenários e oferece mecanismos de autenticação, controle de perfis e acompanhamento das campanhas. Os cálculos da simulação são executados e validados por código, em vez de depender de números fornecidos diretamente pelo modelo de linguagem.
+
+### Links dos Repositórios Git
+
+- [Camplana — repositório principal](https://github.com/CodeDontBlow/domrock-Camplana)
+- [Front-end — Vue 3](https://github.com/CodeDontBlow/domrock-frontend)
+- [Back-end — Spring Boot](https://github.com/CodeDontBlow/domrock-backend)
+- [Lana — agente de inteligência artificial](https://github.com/CodeDontBlow/domrock-lana)
+
+### Tecnologias Utilizadas
+
+| Tecnologia | Utilização no Projeto |
+|-----------|------------------------|
+| Vue 3 | Desenvolvimento da interface web, chat da Lana, formulários e painéis de acompanhamento. |
+| TypeScript | Tipagem de componentes, serviços e dados da interface. |
+| Vite | Ambiente de desenvolvimento e compilação do front-end. |
+| Pinia | Gerenciamento do estado do chat e da interface. |
+| Vue Router | Navegação e proteção de rotas por perfil de usuário. |
+| Axios | Comunicação HTTP do front-end com a API REST. |
+| Tailwind CSS | Estilização da interface web. |
+| Vitest | Testes automatizados do front-end. |
+| Java 17 | Linguagem principal do back-end. |
+| Spring Boot 4 | Desenvolvimento da API REST e implementação de regras de negócio. |
+| Spring Security e JWT | Autenticação, autorização e controle de acesso por perfil. |
+| Spring Data JPA | Persistência e consultas às entidades do sistema. |
+| PostgreSQL | Armazenamento de usuários, campanhas, dados de vendas e comissionamento. |
+| Flyway | Versionamento e aplicação das migrações do banco de dados. |
+| Maven | Gerenciamento de dependências e compilação do back-end Java. |
+| Python | Implementação do agente Lana e das rotinas de simulação. |
+| FastAPI | Interface HTTP do microsserviço de IA. |
+| LangGraph | Orquestração dos fluxos e ferramentas utilizados pela agente Lana. |
+| gRPC | Comunicação entre o back-end Java e o serviço Python da Lana. |
+| Docker e Docker Compose | Padronização e execução conjunta dos serviços da aplicação. |
+| Git e GitHub | Versionamento, integração do trabalho da equipe e organização dos repositórios. |
+
+### Contribuições Pessoais
+
+Neste projeto, atuei como **Desenvolvedor**, trabalhando tanto no **front-end** quanto no **back-end**.
+
+Minhas principais frentes de atuação foram:
+
+- **Front-end:** participei do desenvolvimento da aplicação web, trabalhando com a interface e sua comunicação com os serviços da plataforma. O projeto utiliza Vue 3 e TypeScript, com componentes para interação com a agente Lana, parâmetros de campanhas, navegação e apresentação dos resultados. **[REVISAR: indique quais telas/componentes você efetivamente criou ou alterou.]**
+- **Back-end:** também trabalhei no serviço Java/Spring Boot, responsável pela API REST, regras de negócio e integração com a camada de persistência e com a IA. **[REVISAR: identifique os controllers, services, DTOs, endpoints, regras ou testes que foram de sua autoria.]**
+- **Integração:** atuei nas duas camadas da aplicação, adquirindo experiência com a relação entre interface e API, incluindo o envio de requisições e o tratamento das respostas. **[REVISAR: apresente uma integração específica que você implementou e como foi validada.]**
+- **Ferramentas de desenvolvimento:** utilizei o VSCodium e assistência do Codex durante o trabalho de programação. **[REVISAR: detalhe uma tarefa implementada e como você revisou/testou o código produzido com assistência de IA.]**
+- **Artefatos e entregas:** a implementação está distribuída entre os repositórios de front-end e back-end da equipe. **[REVISAR: acrescente links de commits, pull requests, issues, classes, componentes ou testes concretos que comprovem suas contribuições.]**
+
+> **Observação para a versão final do TG:** os READMEs demonstram as funcionalidades da equipe, mas não comprovam, por si só, quais delas foram implementadas individualmente por mim. Os trechos marcados como **[REVISAR]** devem ser substituídos por contribuições pessoais verificadas antes da apresentação à banca.
+
+### Hard Skills
+
+| Tecnologia | Nível de Proficiência |
+|-----------|------------------------|
+| Vue 3 | **[REVISAR: nível efetivo]** |
+| TypeScript | **[REVISAR: nível efetivo]** |
+| Java | **[REVISAR: nível efetivo]** |
+| Spring Boot | **[REVISAR: nível efetivo]** |
+| APIs REST / Axios | **[REVISAR: nível efetivo]** |
+| PostgreSQL / Spring Data JPA | **[REVISAR: se utilizados diretamente e nível efetivo]** |
+| Git/GitHub | Faço com autonomia |
+| VSCodium / Codex | **[REVISAR: nível efetivo]** |
+
+*Escala utilizada: Ouvi falar; Faço/uso com ajuda; Faço/uso com autonomia; Consigo ensinar. Manter apenas tecnologias utilizadas pessoalmente.*
+
+### Soft Skills
+
+| Soft Skill | Exemplo de Aplicação |
+|-----------|-----------------------|
+| Resolução de problemas | **[REVISAR: descreva um bug concreto encontrado no front-end ou back-end, sua causa, a correção aplicada e o resultado.]** |
+| Comunicação | **[REVISAR: descreva uma conversa ou reunião específica com a equipe para alinhar um contrato de API, uma tela ou uma regra de comissionamento.]** |
+| Trabalho em equipe | **[REVISAR: relate uma integração concreta entre seu código e o trabalho de outro integrante, incluindo a tarefa ou PR correspondente.]** |
+| Adaptabilidade | **[REVISAR: relate uma mudança real de requisito, tecnologia ou abordagem que exigiu ajuste na implementação.]** |
+
+
+
 
 ---
 
