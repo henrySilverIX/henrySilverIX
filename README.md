@@ -326,7 +326,7 @@ Minhas principais contribuições foram:
 
 ### Empresa Parceira
 
-**Fatec-SJC**
+**Fatec São José dos Campos — Professor Jessen Vidal (Fatec-SJC)**
 
 Cliente: **Marcus Nascimento**
 
@@ -336,52 +336,92 @@ Professor P2: **Fernando Massanori**
 
 ### Problema
 
-Dados de comércio exterior podem ser extensos, brutos e difíceis de interpretar sem tratamento adequado e visualização apropriada. Para tomadores de decisão, a análise manual desses dados dificulta a identificação de tendências de crescimento, estagnação ou declínio em estados e municípios brasileiros. Além disso, informações como balança comercial, importações, exportações, produtos, transportes, alfândegas e países parceiros precisam ser organizadas de forma acessível para apoiar análises mais rápidas e confiáveis.
+Dados relacionados ao comércio exterior brasileiro são disponibilizados em grandes volumes, frequentemente em formatos brutos que dificultam sua interpretação e utilização por empresas, pesquisadores e tomadores de decisão. Informações sobre importações, exportações, balança comercial, produtos comercializados e relações comerciais entre países exigem tratamento e organização antes de serem utilizadas em análises.
+
+A ausência de uma visualização centralizada e intuitiva dificulta a identificação de tendências de crescimento, estagnação ou declínio no desempenho comercial dos estados e municípios brasileiros. Além disso, a necessidade de consultar diferentes períodos e realizar comparações entre regiões torna a análise manual dessas informações mais complexa e demorada.
+
+Dessa forma, surgiu a necessidade de tornar esses dados mais acessíveis e compreensíveis, facilitando sua exploração e contribuindo para decisões baseadas em informações confiáveis.
 
 ### Solução
 
-A equipe desenvolveu o **PontoLog**, uma **plataforma web** para transformar dados brutos de comércio exterior e logística em uma interface visual, intuitiva e dinâmica. O sistema permite visualizar estatísticas de importação, exportação e balança comercial por estado, comparar desempenhos, aplicar filtros por período, estado e produto, além de gerar gráficos e mapas para apoiar a análise dos dados. A plataforma utiliza dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços.
+A equipe desenvolveu o **PontoLog**, uma **plataforma web de visualização e análise de dados de comércio exterior**, utilizando informações públicas disponibilizadas pelo Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC).
 
-### Link do Repositório Git
+A aplicação permite consultar indicadores de importação, exportação e balança comercial dos estados brasileiros, utilizando filtros por período, estado e produto. Também disponibiliza gráficos, estatísticas e ferramentas de comparação entre unidades federativas, facilitando a identificação de tendências econômicas e comerciais.
 
-[PontoLog](https://github.com/CodeDontBlow/PontoLog)
+O sistema foi estruturado com uma interface desenvolvida em React e um back-end em Node.js e TypeScript, responsável por disponibilizar dados tratados por meio de uma API REST. O armazenamento das informações foi realizado em PostgreSQL, permitindo consultas estruturadas e acesso aos indicadores apresentados na plataforma.
+
+### Links dos Repositórios Git
+
+- [PontoLog — Repositório Principal](https://github.com/CodeDontBlow/PontoLog)
+- [PontoLog — Back-end](https://github.com/CodeDontBlow/PontoLog-Backend)
+- [PontoLog — Front-end](https://github.com/CodeDontBlow/PontoLog-Frontend)
 
 ### Tecnologias Utilizadas
 
 | Tecnologia | Utilização no Projeto |
-|-----------|------------------------|
-| React | Desenvolvimento da interface web e dos componentes visuais da plataforma. |
-| TypeScript | Tipagem e organização do código no front-end/back-end. |
-| JavaScript | Apoio ao desenvolvimento de funcionalidades da aplicação web. |
-| Node.js | Desenvolvimento do back-end e serviços da aplicação. |
-| Python | Tratamento e preparação dos dados utilizados pela plataforma. |
-| PostgreSQL | Armazenamento dos dados tratados de comércio exterior. |
-| TypeORM | Mapeamento objeto-relacional e comunicação entre back-end e banco de dados. |
-| Redis | Apoio em cache ou otimização de acesso a dados. |
-| Google Colab | Ambiente utilizado para tratamento, experimentação ou análise dos dados. |
-| Figma | Prototipação da interface. |
-| Trello | Organização das tarefas e sprints. |
-| GitHub | Versionamento do código e colaboração da equipe. |
+|---|---|
+| React | Desenvolvimento da interface web, criação de componentes e apresentação dos indicadores e informações da plataforma. |
+| JavaScript | Implementação de funcionalidades interativas e componentes do front-end. |
+| JSX | Estruturação dos componentes React, permitindo combinar elementos visuais com a lógica JavaScript. |
+| TypeScript | Desenvolvimento tipado das funcionalidades do back-end, incluindo controllers, models, repositories e rotas. |
+| Node.js | Ambiente de execução do servidor responsável pelo processamento das requisições da aplicação. |
+| APIs REST | Disponibilização de endpoints para consulta de informações de comércio exterior pelo front-end. |
+| Python | Tratamento, preparação e organização dos dados brutos utilizados pela plataforma. |
+| PostgreSQL | Banco de dados relacional utilizado para armazenar os indicadores e registros de comércio exterior. |
+| SQL | Criação de estruturas de banco de dados e realização de consultas para recuperação das informações. |
+| TypeORM | Mapeamento objeto-relacional e comunicação entre os modelos TypeScript e o banco de dados PostgreSQL. |
+| Redis | Apoio à otimização do acesso aos dados e ao gerenciamento de cache. |
+| Google Colab | Ambiente utilizado para experimentação, tratamento e análise de dados. |
+| Figma | Prototipação das telas e planejamento da interface da aplicação. |
+| Trello | Organização do Product Backlog, acompanhamento das tarefas e gerenciamento das sprints. |
+| Git/GitHub | Versionamento dos repositórios de front-end e back-end, colaboração e integração das funcionalidades desenvolvidas. |
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **Desenvolvedor**.
+Neste projeto, atuei como **Desenvolvedor Full Stack**, com participação predominante no **back-end utilizando TypeScript e Node.js**, além de contribuir para o **front-end com React e JavaScript**.
 
 Minhas principais contribuições foram:
 
-- Contribuí no desenvolvimento da plataforma web voltada à visualização e análise de dados de comércio exterior. **[REVISAR: especifique se você atuou mais no front-end, back-end, banco ou tratamento de dados.]**
-- Trabalhei com tecnologias como React, TypeScript, Node.js, Python e PostgreSQL em atividades relacionadas à construção de telas, consumo de dados, tratamento de informações ou persistência no banco. **[REVISAR: mantenha somente as tecnologias que você usou.]**
-- Auxiliei na implementação de funcionalidades de visualização de dados, filtros, gráficos ou comparação de informações entre estados. **[REVISAR: cite exatamente qual funcionalidade você desenvolveu.]**
-- Participei da organização do projeto ao longo das sprints, acompanhando user stories, backlog e entregas planejadas.
-- Contribuí com artefatos técnicos, documentação e versionamento do código no GitHub. **[REVISAR: cite os artefatos reais, como páginas, endpoints, notebooks ou documentos.]**
+- **Desenvolvimento do módulo de balança comercial:** implementei a estrutura responsável por disponibilizar informações da balança comercial brasileira por meio da API REST. Criei os arquivos `balanco_com.controller.ts`, `BalancoCom.ts`, `BalancoComercial.ts`, `BalancoRepository.ts` e `balanco.ts`, organizando as responsabilidades entre controllers, modelos, repositórios e rotas. Também atualizei os arquivos de inicialização das rotas e do banco de dados para integrar o novo módulo à aplicação.
+
+- **Implementação de consultas por períodos:** ampliei as funcionalidades do módulo de balança comercial, adicionando consultas por mês, intervalos de anos e intervalos de meses. Essas implementações envolveram alterações nos controllers, repositories e rotas, permitindo que o sistema disponibilizasse informações de diferentes períodos para utilização nas análises da plataforma.
+
+- **Correção e aperfeiçoamento das consultas de balança comercial:** realizei ajustes na função `getBalancoComercialByMonthRange` para corrigir o recebimento do ano como argumento e modificar o formato dos dados retornados. Também trabalhei na organização dos resultados, permitindo que os valores da balança comercial fossem apresentados na ordem correspondente aos meses consultados.
+
+- **Desenvolvimento do módulo de importações por unidade federativa:** implementei componentes do back-end relacionados à consulta de dados de importação, criando os arquivos `impRes.controller.ts`, `ImpRes.ts` e `impResRepository.ts`. Também modifiquei os arquivos `importacao.ts` e `database/index.ts` para integrar o módulo às rotas e à estrutura de acesso aos dados da aplicação.
+
+- **Estruturação e manutenção do banco de dados:** contribuí para a organização dos recursos relacionados ao banco de dados, incluindo a criação inicial do arquivo `Logistica.sql` e atualizações posteriores no script `db.sql`. Essas alterações apoiaram a estruturação dos dados utilizados pelos módulos da aplicação.
+
+- **Organização dos arquivos e documentação de dados:** realizei ajustes no `.gitignore` para evitar o versionamento de arquivos de dados que não deveriam ser enviados ao repositório. Também reorganizei a documentação relacionada ao Git LFS, utilizado para o gerenciamento de arquivos grandes no contexto do projeto.
+
+- **Desenvolvimento do carrossel de notícias:** contribuí para o front-end do PontoLog implementando a integração de uma API de notícias na página inicial. Desenvolvi os componentes `Carrossel.jsx` e `Carrossel.css`, além de realizar alterações em `Home.jsx` e nos arquivos de dependências do projeto. A funcionalidade foi destinada à apresentação de notícias na página principal da plataforma.
+
+- **Integração e versionamento das funcionalidades:** participei da integração de alterações do back-end por meio de Pull Requests, incluindo as funcionalidades relacionadas à balança comercial e às consultas de importação. Utilizei Git e GitHub para registrar as implementações, organizar alterações e acompanhar a evolução dos módulos desenvolvidos.
+
+**Evidências das contribuições no GitHub:**
+
+| Commit | Descrição |
+|---|---|
+| [`b80cb73`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/b80cb73) | Criação do arquivo SQL inicial da aplicação. |
+| [`5a51383`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/5a51383) | Implementação dos models, controller, repository e rotas da balança comercial. |
+| [`4d5270d`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/4d5270d) | Adição de consultas de balança comercial por mês e intervalos de períodos. |
+| [`0ba00de`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/0ba00de) | Correção dos argumentos da consulta mensal, incluindo o ano. |
+| [`b1801be`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/b1801be) | Ajuste no retorno da consulta para disponibilizar uma lista de resultados mensais. |
+| [`9544b33`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/9544b33) | Correção da ordenação dos resultados da balança comercial por mês. |
+| [`6023bc3`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/6023bc3) | Implementação do módulo de importações por unidade federativa. |
+| [`c4ceef7`](https://github.com/CodeDontBlow/PontoLog-Backend/commit/c4ceef7) | Atualização do SQL, do `.gitignore` e da documentação sobre Git LFS. |
+| [`dd59f15`](https://github.com/CodeDontBlow/PontoLog-Frontend/commit/dd59f15) | Implementação da API de notícias e do carrossel na página inicial. |
 
 ### Hard Skills
 
 | Tecnologia | Nível de Proficiência |
-|-----------|------------------------|
+|---|---|
 | React | Faço com ajuda |
+| JavaScript | Faço com autonomia |
 | TypeScript | Faço com ajuda |
 | Node.js | Faço com autonomia |
+| APIs REST | Faço com autonomia |
+| SQL | Faço com autonomia |
 | Python | Consigo ensinar |
 | PostgreSQL | Faço com ajuda |
 | TypeORM | Ouvi falar |
@@ -390,10 +430,11 @@ Minhas principais contribuições foram:
 ### Soft Skills
 
 | Soft Skill | Exemplo de Aplicação |
-|-----------|-----------------------|
-| Pensamento analítico | Durante o projeto, precisei compreender como os dados de comércio exterior seriam filtrados, tratados e apresentados para facilitar a análise por parte do usuário. **[REVISAR: cite um caso real envolvendo dados, filtros ou gráficos.]** |
-| Comunicação | Alinhei com a equipe a melhor forma de apresentar dados complexos em telas e gráficos compreensíveis, evitando que a plataforma exibisse apenas dados brutos sem contexto. **[REVISAR: substitua por uma situação real.]** |
-| Organização | Acompanhei a divisão das user stories por sprint e contribuí para manter as entregas técnicas alinhadas com o roadmap do projeto. **[REVISAR: cite uma entrega real.]** |
+|---|---|
+| **Resolução de problemas** | Durante o desenvolvimento do módulo de balança comercial, precisei realizar correções na função `getBalancoComercialByMonthRange`, utilizada para consultar dados em intervalos mensais. Inicialmente, foi necessário ajustar a passagem do ano como argumento e modificar o formato dos resultados retornados. Posteriormente, realizei uma nova correção para organizar os valores na ordem dos meses consultados. Essas alterações contribuíram para melhorar a consistência das informações disponibilizadas pela API e demonstraram a importância de revisar e aprimorar funcionalidades após sua implementação inicial. |
+| **Pensamento analítico** | Na implementação das funcionalidades de consulta à balança comercial, precisei compreender como os dados deveriam ser organizados e recuperados para atender aos diferentes filtros da aplicação. O desenvolvimento envolveu consultas por mês, intervalos de anos e intervalos mensais, exigindo atenção aos parâmetros recebidos pelas rotas e à estrutura dos resultados. Essa atividade contribuiu para desenvolver minha capacidade de analisar requisitos relacionados à recuperação e à apresentação de dados. |
+| **Organização** | Durante o desenvolvimento, organizei minhas atividades a partir das tarefas previstas nas sprints e acompanhei as alterações realizadas nos repositórios do projeto. Na implementação dos módulos de balança comercial e importação, trabalhei com arquivos separados para modelos, controllers, repositories e rotas, respeitando a estrutura adotada pela equipe. Também contribuí para a organização dos arquivos de dados, ajustando o `.gitignore` e a documentação relacionada ao Git LFS. |
+| **Comunicação e trabalho em equipe** | Durante o desenvolvimento do PontoLog, participei das atividades de integração das funcionalidades com os demais integrantes da equipe. Como o projeto possuía repositórios separados para front-end e back-end, era importante compreender os requisitos das tarefas e como os dados disponibilizados pelas rotas seriam utilizados na interface. Para isso, acompanhei as atividades da equipe e busquei esclarecer dúvidas sobre os requisitos e o funcionamento das funcionalidades desenvolvidas, contribuindo para manter minhas implementações alinhadas à estrutura do sistema. |
 
 ---
 
