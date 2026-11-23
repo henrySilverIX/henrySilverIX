@@ -96,7 +96,7 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 | 3º Semestre | 2025-1 | Fatec-SJC | PontoLog | Plataforma web para visualização e análise de dados de comércio exterior dos estados brasileiros. | [Acessar](https://github.com/CodeDontBlow/PontoLog) |
 | 4º Semestre | 2025-2 | TecSys | Tecsys Descriptum | Aplicação com IA para automatizar análise de documentos de importação e auxiliar no Registro de Importação. | [Acessar](https://github.com/CodeDontBlow/Tecsys-Descriptum) |
 | 5º Semestre | 2026-1 | Pro4Tech | Orbita | Aplicação mobile e painel web para centralizar atendimento ao cliente por chat estruturado e triagem automatizada. | [Acessar](https://github.com/CodeDontBlow/Pro4Tech-ADS5) |
-| 6º Semestre | 2026-2 | Dom RockCamplana | Plataforma web com IA generativa para estruturar, simular e acompanhar campanhas e regras de comissionamento de vendas. | [Acessar](https://github.com/CodeDontBlow/domrock-Camplana) |
+| 6º Semestre | 2026-2 | Dom Rock | Camplana | Plataforma web com IA generativa para estruturar, simular e acompanhar campanhas e regras de comissionamento de vendas. | [Acessar](https://github.com/CodeDontBlow/domrock-Camplana) |
 
 ---
 
