@@ -106,69 +106,93 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 
 ### Empresa Parceira
 
-**Fatec-SJC**
+**Fatec São José dos Campos — Professor Jessen Vidal (Fatec-SJC)**
 
 Professor responsável pelos requisitos: **Antônio Egydio São Tiago Graça**
 
 ### Problema
 
-Alunos iniciantes em cursos de tecnologia costumam ter dificuldade para compreender a metodologia Scrum apenas por meio de explicações teóricas. O conteúdo envolve diferentes papéis, eventos, artefatos e práticas, o que pode tornar o aprendizado abstrato para quem ainda não participou de projetos ágeis reais. Além disso, a ausência de uma ferramenta didática e interativa dificulta a fixação dos conceitos e a visualização de como o Scrum pode ser aplicado em diferentes contextos de projeto.
+Alunos iniciantes em cursos de tecnologia frequentemente enfrentam dificuldades para compreender os conceitos da metodologia Scrum apenas por meio de explicações teóricas. A metodologia envolve diferentes papéis, eventos, artefatos e práticas que podem parecer abstratos para estudantes que ainda não tiveram contato com projetos ágeis.
+
+Além disso, a ausência de recursos didáticos interativos pode dificultar a assimilação dos conteúdos e a compreensão de como os princípios do Scrum são aplicados na prática. Dessa forma, surgiu a necessidade de oferecer aos estudantes uma abordagem de aprendizagem mais acessível, dinâmica e interativa.
 
 ### Solução
 
-A equipe desenvolveu um **sistema web** chamado **Scrum Tutor**, com o objetivo de auxiliar o aprendizado da metodologia Scrum por meio de uma plataforma interativa e educativa. O sistema apresenta conceitos, papéis, processos e artefatos do Scrum, permitindo que o usuário estude o conteúdo de forma mais dinâmica. O projeto também incluiu protótipos, backlog do produto, roadmap, incrementos por sprint e demonstrações em vídeo.
+A equipe desenvolveu o **Scrum Tutor**, uma **aplicação web educativa e interativa** destinada ao ensino da metodologia Scrum.
+
+A plataforma apresenta conteúdos relacionados aos fundamentos, papéis, eventos e artefatos do Scrum, permitindo que os usuários estudem os conceitos e aprofundem seus conhecimentos por meio de recursos interativos, incluindo atividades práticas e avaliações.
+
+O desenvolvimento foi realizado utilizando a metodologia Scrum, com organização do Product Backlog, planejamento das sprints, prototipação das interfaces e entregas incrementais ao longo do semestre.
 
 ### Link do Repositório Git
 
-[Scrum Tutor](https://github.com/CodeDontBlow/Scrum-Tutor)
+[Scrum Tutor — Code Don't Blow](https://github.com/CodeDontBlow/Scrum-Tutor)
 
 ### Tecnologias Utilizadas
 
-| Tecnologia | Utilização no Projeto |
-|-----------|------------------------|
-| HTML | Estruturação das páginas da aplicação web. |
-| CSS | Estilização das telas e organização visual da interface. |
-| Bootstrap | Padronização visual, responsividade e uso de componentes prontos na interface. |
-| JavaScript | Implementação de comportamentos interativos nas páginas. |
-| Python | Desenvolvimento da lógica da aplicação no back-end. |
-| Flask | Framework utilizado para construção da aplicação web em Python. |
-| MySQL | Banco de dados utilizado para armazenamento das informações do sistema. |
-| Figma | Criação e validação do protótipo das telas. |
-| Trello | Organização das tarefas e acompanhamento das sprints. |
-| GitHub | Versionamento do código-fonte e colaboração entre os integrantes da equipe. |
+|Tecnologia|Utilização no Projeto|
+|---|---|
+|HTML5|Estruturação das páginas e dos elementos visuais da aplicação web.|
+|CSS3|Estilização das interfaces, incluindo componentes visuais e elementos da área administrativa.|
+|Bootstrap|Construção de componentes de interface e adaptação das páginas a diferentes resoluções.|
+|JavaScript|Implementação de comportamentos interativos e funcionalidades executadas no navegador.|
+|Python|Desenvolvimento da lógica de negócio e das funcionalidades do servidor.|
+|Flask|Framework utilizado no desenvolvimento das rotas e no processamento das requisições da aplicação web.|
+|MySQL|Banco de dados relacional utilizado para armazenamento e gerenciamento das informações da aplicação.|
+|Figma|Desenvolvimento dos protótipos das interfaces e planejamento visual da plataforma.|
+|Trello|Organização das tarefas, acompanhamento do Product Backlog e gerenciamento das sprints.|
+|Excel|Organização e acompanhamento de informações relacionadas ao planejamento do projeto.|
+|Git/GitHub|Versionamento do código-fonte, colaboração entre desenvolvedores e documentação das entregas.|
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **Desenvolvedor**.
+Neste projeto, atuei como **Desenvolvedor**, participando da implementação de funcionalidades da aplicação web, da manutenção do banco de dados e da documentação técnica do projeto.
 
 Minhas principais contribuições foram:
 
-- Contribuí no desenvolvimento da aplicação web, participando da implementação de telas e funcionalidades relacionadas ao ensino da metodologia Scrum. **[REVISAR: especifique aqui quais telas ou funcionalidades você implementou.]**
-- Utilizei tecnologias como HTML, CSS, Bootstrap, JavaScript, Python, Flask e MySQL para apoiar a construção da interface, da lógica da aplicação e da integração com o banco de dados. **[REVISAR: mantenha apenas as tecnologias que você realmente utilizou.]**
-- Participei da organização dos incrementos do projeto ao longo das sprints, acompanhando o backlog e colaborando com a equipe na entrega das funcionalidades planejadas.
-- Auxiliei na validação da navegação e da usabilidade do sistema, buscando tornar o conteúdo sobre Scrum mais acessível para usuários iniciantes.
-- Também contribuí com artefatos relacionados ao desenvolvimento do projeto, como ajustes de código, documentação e acompanhamento das tarefas no GitHub/Trello. **[REVISAR: cite os artefatos exatos que você criou.]**
+- **Implementação do acesso à área administrativa:** participei do desenvolvimento de um mecanismo de proteção por senha para acesso à página administrativa. Realizei alterações no arquivo `app.py`, responsável pela lógica da aplicação Flask, e no template `base.html`, utilizado na estrutura das páginas web.
+    
+- **Desenvolvimento e estilização da interface:** criei o arquivo `modal_senha.css` e realizei modificações em `comentario.css`, contribuindo para a apresentação visual dos componentes relacionados à funcionalidade administrativa. Essas atividades envolveram principalmente HTML e CSS.
+    
+- **Manutenção do banco de dados:** realizei alterações no arquivo `CDB_Database.sql`, relacionado à estrutura e aos dados utilizados pelo MySQL, contribuindo para a manutenção do banco de dados da aplicação.
+    
+- **Atualização das dependências:** participei da atualização das dependências do projeto, incluindo alterações relacionadas ao arquivo `requirements.txt`, utilizado para registrar os pacotes Python necessários à execução da aplicação.
+    
+- **Documentação do projeto:** contribuí para a manutenção do `README.md` no GitHub, realizando atualizações na documentação e incluindo uma indicação para o vídeo de demonstração da navegação do protótipo.
+    
+- **Acompanhamento das sprints:** participei das atividades de desenvolvimento durante o semestre, acompanhando o Product Backlog e utilizando GitHub, Trello e planilhas Excel para consultar tarefas, esclarecer dúvidas e acompanhar o andamento das entregas.
+    
+
+**Evidências das contribuições no GitHub:**
+
+|Commit|Descrição|
+|---|---|
+|[`031f343`](https://github.com/CodeDontBlow/Scrum-Tutor/commit/031f343)|Implementação de acesso por senha à página administrativa e alterações na interface.|
+|[`1a9883c`](https://github.com/CodeDontBlow/Scrum-Tutor/commit/1a9883c)|Atualização do banco de dados e das dependências do projeto.|
+|[`07b2caa`](https://github.com/CodeDontBlow/Scrum-Tutor/commit/07b2caa)|Atualização da documentação com referência ao vídeo de navegação do protótipo.|
+|[`6b08744`](https://github.com/CodeDontBlow/Scrum-Tutor/commit/6b08744)|Atualização do README do projeto.|
+|[`c793bc6`](https://github.com/CodeDontBlow/Scrum-Tutor/commit/c793bc6)|Atualização do README do projeto.|
 
 ### Hard Skills
 
-| Tecnologia | Nível de Proficiência |
-|-----------|------------------------|
-| HTML | Consigo ensinar |
-| CSS | Consigo ensinar |
-| Bootstrap | Faço com autonomia |
-| JavaScript | Faço com autonomia |
-| Python | Consigo ensinar |
-| Flask | Faço com autonomia |
-| MySQL | Faço com autonomia |
-| Git/GitHub | Faço com autonomia |
+|Tecnologia|Nível de Proficiência|
+|---|---|
+|HTML5|Consigo ensinar|
+|CSS3|Consigo ensinar|
+|Bootstrap|Faço com autonomia|
+|JavaScript|Faço com autonomia|
+|Python|Consigo ensinar|
+|Flask|Faço com autonomia|
+|MySQL|Faço com autonomia|
+|Git/GitHub|Faço com autonomia|
 
 ### Soft Skills
 
-| Soft Skill | Exemplo de Aplicação |
-|-----------|-----------------------|
-| Comunicação | Durante o desenvolvimento, precisei alinhar com a equipe como as informações da metodologia Scrum seriam apresentadas ao usuário, buscando transformar um conteúdo teórico em uma experiência mais clara e didática. Em uma situação, precisamos nos reunir para falar sobre uma tarefa âncora e fizemos reunião junto para decidir sobre a task em questão |
-| Trabalho em equipe | Colaborei com os demais desenvolvedores na divisão das tarefas das sprints, realizando ajustes de código e validando entregas em conjunto para manter o projeto coerente com o objetivo definido. **[REVISAR: cite uma sprint ou tarefa real.]** |
-| Organização | Acompanhei tarefas e entregas por meio das ferramentas de gestão utilizadas pela equipe, ajudando a manter o desenvolvimento alinhado ao cronograma das sprints. Aqui, utilizamos GitHub, Excel e Trello para nos organizarmos |
+|Soft Skill|Exemplo de Aplicação|
+|---|---|
+|**Comunicação**|Durante o desenvolvimento do Scrum Tutor, participei de uma reunião com a equipe para discutir uma tarefa âncora que precisava de esclarecimentos. Na ocasião, conversamos sobre os requisitos e as possibilidades de execução da atividade, buscando estabelecer um entendimento comum antes de prosseguir com o desenvolvimento. Essa experiência contribuiu para aprimorar minha capacidade de comunicação e esclarecimento de dúvidas em equipe.|
+|**Trabalho em equipe**|Ao longo das quatro sprints, trabalhei em conjunto com os demais desenvolvedores, acompanhando as atividades e participando das discussões sobre as funcionalidades planejadas. A colaboração com os colegas foi importante para compreender as responsabilidades de cada integrante e manter minhas implementações alinhadas aos objetivos do projeto.|
+|**Organização**|Durante o desenvolvimento, utilizei GitHub, Trello e planilhas Excel para acompanhar as atividades e o andamento das sprints. Consultava essas ferramentas para identificar tarefas, compreender requisitos e acompanhar as entregas previstas no cronograma. Essa prática contribuiu para organizar minhas responsabilidades e manter o desenvolvimento alinhado ao planejamento da equipe.|
 
 ---
 
