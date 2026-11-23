@@ -195,14 +195,13 @@ Minhas principais contribuições foram:
 |**Organização**|Durante o desenvolvimento, utilizei GitHub, Trello e planilhas Excel para acompanhar as atividades e o andamento das sprints. Consultava essas ferramentas para identificar tarefas, compreender requisitos e acompanhar as entregas previstas no cronograma. Essa prática contribuiu para organizar minhas responsabilidades e manter o desenvolvimento alinhado ao planejamento da equipe.|
 
 ---
-
 # 2º Semestre - 2024-2
 
 ## Projeto: DocEye
 
 ### Empresa Parceira
 
-**Fatec-SJC**
+**Fatec São José dos Campos — Professor Jessen Vidal (Fatec-SJC)**
 
 Professor responsável pelos requisitos: **Cláudio Etelvino de Lima**
 
@@ -210,66 +209,114 @@ Cliente: **Giuliano Bertoti**
 
 ### Problema
 
-Empresas que trabalham com grande volume de documentos, como currículos, contas e notas fiscais, enfrentam dificuldades para extrair informações relevantes de forma rápida e organizada. Esse processo normalmente depende de análise humana, o que torna a atividade mais lenta, repetitiva e sujeita a inconsistências. Além disso, apenas extrair o texto dos arquivos nem sempre é suficiente, pois muitas informações dependem do layout visual do documento e precisam ser interpretadas dentro do contexto correto.
+Empresas que trabalham com grandes volumes de documentos, como currículos, contas e notas fiscais, enfrentam dificuldades para extrair informações relevantes de forma rápida e organizada. Esse processo frequentemente depende da análise humana, tornando a atividade mais lenta, repetitiva e sujeita a inconsistências.
+
+Além disso, a simples extração de texto nem sempre é suficiente para interpretar corretamente o conteúdo dos arquivos, pois algumas informações dependem da disposição visual dos elementos e do contexto em que estão inseridas. No caso dos processos seletivos, essas dificuldades podem comprometer a organização dos dados dos candidatos e tornar a análise de currículos menos eficiente.
 
 ### Solução
 
-A equipe desenvolveu o **DocEye**, uma **aplicação desktop em Java** voltada à extração de informações de documentos. O sistema utiliza recursos de OCR, modelos de linguagem e visão, e armazenamento em banco de dados para transformar informações não estruturadas, como PDFs e imagens, em dados organizados. A solução foi direcionada especialmente para processos seletivos, permitindo extrair dados de currículos, como nome, contato e competências, e disponibilizá-los de forma estruturada para consulta, edição, exclusão e filtragem.
+A equipe desenvolveu o **DocEye**, uma **aplicação desktop em Java**, destinada à extração, organização e gerenciamento de informações presentes em documentos digitais.
+
+A plataforma utiliza recursos de Reconhecimento Óptico de Caracteres (OCR) e modelos de Inteligência Artificial para processar documentos, como currículos em PDF ou imagens, e transformar seu conteúdo em informações estruturadas.
+
+O sistema permite armazenar os dados extraídos em um banco de dados MySQL, oferecendo funcionalidades de cadastro, consulta, atualização, exclusão e filtragem de candidatos. A aplicação também conta com uma interface gráfica desenvolvida em JavaFX, facilitando a visualização e a manipulação das informações pelos usuários.
 
 ### Link do Repositório Git
 
-[DocEye](https://github.com/CodeDontBlow/DocEye)
+[DocEye — Code Don't Blow](https://github.com/CodeDontBlow/DocEye)
 
 ### Tecnologias Utilizadas
 
-| Tecnologia | Utilização no Projeto |
-|-----------|------------------------|
-| Java | Linguagem principal utilizada no desenvolvimento da aplicação desktop. |
-| JavaFX | Construção da interface gráfica da aplicação. |
-| MySQL | Banco de dados relacional utilizado para armazenar as informações extraídas dos documentos. |
-| Ollama | Execução local de modelos de IA para interpretação e extração de informações. |
-| VLM | Modelo de linguagem e visão utilizado para análise de documentos considerando texto e elementos visuais. |
-| Tesseract OCR | Extração de texto a partir de imagens e documentos digitalizados. |
-| Tess4J | Integração do Tesseract OCR com a aplicação Java. |
-| IntelliJ IDEA | IDE utilizada no desenvolvimento do projeto. |
-| Figma | Prototipação das telas e definição visual da interface. |
-| Draw.io | Criação de diagramas e apoio à documentação técnica. |
-| Trello | Gerenciamento das tarefas e acompanhamento das sprints. |
-| Git/GitHub | Versionamento do projeto e colaboração da equipe. |
-| Markdown | Escrita e organização da documentação do projeto. |
-| Google Sheets | Apoio na organização de informações e acompanhamento do projeto. |
+|Tecnologia|Utilização no Projeto|
+|---|---|
+|Java|Linguagem principal utilizada no desenvolvimento da aplicação desktop, implementação das regras de negócio e manipulação dos dados.|
+|JavaFX|Desenvolvimento da interface gráfica, incluindo telas, tabelas, controles e funcionalidades de interação com o usuário.|
+|FXML|Definição da estrutura visual das interfaces JavaFX, separando os componentes gráficos da lógica dos controllers.|
+|JDBC|Comunicação entre a aplicação Java e o banco de dados relacional.|
+|MySQL|Armazenamento e gerenciamento das informações extraídas dos documentos e dos registros de candidatos.|
+|SQL|Criação e manutenção das estruturas do banco de dados, além da realização de operações de consulta e manipulação dos registros.|
+|Ollama|Execução local de modelos de Inteligência Artificial para testes de interpretação e extração de informações.|
+|VLM (Vision Language Model)|Processamento de documentos utilizando modelos capazes de interpretar informações textuais e visuais.|
+|Tesseract OCR|Reconhecimento e extração de texto presente em imagens e documentos digitalizados.|
+|Tess4J|Biblioteca utilizada para integrar os recursos do Tesseract OCR à aplicação Java.|
+|Maven|Gerenciamento das dependências e configuração do projeto Java por meio do arquivo `pom.xml`.|
+|IntelliJ IDEA|Ambiente de desenvolvimento utilizado na implementação e manutenção do código.|
+|Figma|Prototipação das interfaces e planejamento da experiência visual do usuário.|
+|Draw.io|Elaboração de diagramas e documentação da arquitetura do sistema.|
+|Trello|Organização das tarefas e acompanhamento das atividades durante as sprints.|
+|Git/GitHub|Versionamento do código-fonte, colaboração entre integrantes e documentação do projeto.|
+|Markdown|Criação e manutenção da documentação do projeto no GitHub.|
+|Google Sheets|Organização de informações e acompanhamento do planejamento das entregas.|
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **Desenvolvedor**.
+Neste projeto, atuei como **Desenvolvedor**, participando principalmente do desenvolvimento da camada de persistência de dados, construção da interface gráfica e integração entre os componentes da aplicação desktop.
 
 Minhas principais contribuições foram:
 
-- Contribuí para o desenvolvimento da aplicação desktop em Java, especialmente na construção de funcionalidades relacionadas ao carregamento, extração, visualização ou manipulação de documentos. **[REVISAR: especifique as telas/classes/funcionalidades que você implementou.]**
-- Trabalhei com a integração entre a interface gráfica, o processamento das informações extraídas e o banco de dados MySQL. **[REVISAR: mantenha somente se você trabalhou nessa integração.]**
-- Apoiei o uso de tecnologias de OCR e IA no fluxo da aplicação, buscando automatizar a extração de informações presentes em currículos e outros documentos. **[REVISAR: cite se você usou Ollama, Tesseract, Tess4J ou outro recurso.]**
-- Participei da organização técnica do projeto, contribuindo com código, testes manuais, ajustes de interface e documentação em Markdown. **[REVISAR: cite os artefatos reais.]**
-- Colaborei com a equipe durante as sprints para entregar uma aplicação local, com interface minimalista e capacidade de cadastrar, recuperar, editar e excluir informações extraídas.
+- **Desenvolvimento da camada de acesso a dados (DAO):** participei da implementação e manutenção das classes responsáveis pela comunicação com o banco de dados, especialmente `CandidatoDAO`, `CurriculoDAO` e `BoletimDAO`. Trabalhei na implementação de operações de atualização de registros, além de ajustes necessários ao gerenciamento das informações utilizando Java e SQL.
+    
+- **Modelagem de dados e conexão com MySQL:** contribuí para a estruturação das classes de modelo `Candidato`, `Curriculo` e `Boletim`, adicionando atributos, construtores e métodos de acesso (_getters_ e _setters_). Também desenvolvi e ajustei a classe `ConnectionFactory`, responsável por centralizar a criação de conexões com o banco de dados, e criei a classe `TesteConexao` para apoiar sua verificação.
+    
+- **Implementação do gerenciamento de candidatos:** desenvolvi funcionalidades relacionadas ao gerenciamento dos registros de candidatos, realizando alterações no banco de dados e nas classes `CandidatoDAO` e `DatabaseController`. Também participei da construção da interface gráfica utilizada para consultar e manipular essas informações.
+    
+- **Desenvolvimento da interface gráfica com JavaFX:** trabalhei na implementação e atualização das interfaces de gerenciamento do banco de dados, modificando arquivos FXML e controllers Java. Inicialmente, implementei a exibição dos registros de candidatos por meio de um `ListView` e, posteriormente, adaptei essa funcionalidade para utilizar um `TableView`, permitindo organizar os dados em colunas e facilitar sua visualização.
+    
+- **Implementação de filtros de candidatos:** desenvolvi métodos de consulta para localizar candidatos com base em competências e idiomas cadastrados. Também implementei a inicialização e o carregamento dos registros na tabela da interface gráfica, integrando os métodos do DAO ao `DatabaseController` e ao arquivo `BancoDados.fxml`.
+    
+- **Integração e reorganização das entidades:** realizei alterações para integrar funcionalidades anteriormente distribuídas entre as classes de currículo e candidato, consolidando parte da lógica de acesso aos dados. Essa atividade envolveu alterações nas classes de modelo, nos DAOs, nos controllers e nos arquivos SQL do projeto.
+    
+- **Seleção de documentos pelo explorador de arquivos:** implementei uma funcionalidade que permitia selecionar arquivos do computador por meio de uma janela de seleção. Para isso, realizei alterações nas classes `InputDocuments`, `Main` e `SimpleController`, integrando o processo de seleção de documentos ao fluxo da aplicação.
+    
+- **Manutenção e correção da aplicação:** realizei ajustes na classe `ConnectionFactory` e nos controllers para melhorar o funcionamento do projeto. Também participei da reorganização de pacotes Java e da atualização de arquivos FXML. Em uma das etapas, precisei reverter alterações relacionadas à seleção de documentos e à integração com serviços de IA, pois a implementação estava apresentando problemas de compatibilidade com o restante da aplicação.
+    
+- **Experimentação com Inteligência Artificial:** registrei na documentação do projeto testes realizados com um modelo de linguagem Llama 13B, contribuindo para a investigação de possibilidades de utilização de Inteligência Artificial na interpretação de documentos. Também trabalhei em arquivos relacionados ao serviço `OllamaApi`, durante ajustes de integração da aplicação.
+    
+- **Documentação e versionamento:** contribuí com atualizações no `README.md`, incluindo registros de testes com modelos de Inteligência Artificial e atualizações dos vídeos de demonstração. Durante o desenvolvimento, utilizei Git e GitHub para organizar as alterações e colaborar com os demais integrantes da equipe.
+    
+
+**Evidências das contribuições no GitHub:**
+
+|Commit|Descrição|
+|---|---|
+|[`e894a68`](https://github.com/CodeDontBlow/DocEye/commit/e894a68)|Modelagem das classes, criação da `ConnectionFactory` e teste de conexão.|
+|[`320483a`](https://github.com/CodeDontBlow/DocEye/commit/320483a)|Implementação de métodos de atualização nas classes DAO.|
+|[`43994b9`](https://github.com/CodeDontBlow/DocEye/commit/43994b9)|Implementação de seleção de arquivos do computador.|
+|[`1b78387`](https://github.com/CodeDontBlow/DocEye/commit/1b78387)|Desenvolvimento da interface de gerenciamento de candidatos.|
+|[`b884221`](https://github.com/CodeDontBlow/DocEye/commit/b884221)|Implementação do gerenciamento de candidatos com DAO e interface gráfica.|
+|[`4d44995`](https://github.com/CodeDontBlow/DocEye/commit/4d44995)|Exibição dos registros de candidatos utilizando `ListView`.|
+|[`aa46867`](https://github.com/CodeDontBlow/DocEye/commit/aa46867)|Implementação da seleção de arquivos pela interface gráfica.|
+|[`1708d95`](https://github.com/CodeDontBlow/DocEye/commit/1708d95)|Reversão de alterações que apresentaram problemas de funcionamento.|
+|[`3c71c45`](https://github.com/CodeDontBlow/DocEye/commit/3c71c45)|Integração das classes de candidato e currículo e migração de `ListView` para `TableView`.|
+|[`1089b70`](https://github.com/CodeDontBlow/DocEye/commit/1089b70)|Implementação de filtros por competências e idiomas e carregamento dos dados na tabela.|
+|[`b5e56ff`](https://github.com/CodeDontBlow/DocEye/commit/b5e56ff)|Ajuste na `ConnectionFactory` relacionado à exposição de senha.|
+|[`1e85dd9`](https://github.com/CodeDontBlow/DocEye/commit/1e85dd9)|Documentação de teste com Inteligência Artificial utilizando Llama 13B.|
 
 ### Hard Skills
 
-| Tecnologia | Nível de Proficiência |
-|-----------|------------------------|
-| Java | [Faço com autonomia |
-| JavaFX | Faço com ajuda |
-| MySQL | Faço com autonomia |
-| Ollama | Faço com autonomia |
-| Tesseract OCR/Tess4J | Faço com ajuda |
-| Git/GitHub | Faço com autonomia |
-| Figma | Faço com ajuda |
+|Tecnologia|Nível de Proficiência|
+|---|---|
+|Java|Faço com autonomia|
+|JavaFX|Faço com ajuda|
+|FXML|Faço com ajuda|
+|JDBC|Faço com autonomia|
+|SQL|Faço com autonomia|
+|MySQL|Faço com autonomia|
+|Ollama|Faço com autonomia|
+|Tesseract OCR / Tess4J|Faço com ajuda|
+|Maven|Faço com ajuda|
+|Git/GitHub|Faço com autonomia|
+|Figma|Faço com ajuda|
 
 ### Soft Skills
 
-| Soft Skill | Exemplo de Aplicação |
-|-----------|-----------------------|
-| Resolução de problemas | Durante o desenvolvimento, precisei lidar com desafios de extração de informações de documentos, pois o texto extraído nem sempre vinha em formato adequado para cadastro direto no banco de dados. **[REVISAR: coloque um bug ou dificuldade real que você resolveu.]** |
-| Comunicação | Alinhei com a equipe como os dados extraídos dos documentos deveriam ser exibidos e armazenados, para que a aplicação ficasse compreensível para o usuário final. **[REVISAR: cite uma reunião, daily ou decisão real.]** |
-| Trabalho em equipe | Colaborei com outros integrantes na integração entre interface, banco de dados e processamento dos documentos, ajustando partes do sistema conforme as entregas de cada sprint. **[REVISAR: detalhe a colaboração real.]** |
+|Soft Skill|Exemplo de Aplicação|
+|---|---|
+|**Resolução de problemas**|Durante o desenvolvimento da funcionalidade de seleção de documentos, encontrei dificuldades relacionadas ao funcionamento e à compatibilidade da implementação com outras partes da aplicação. Como a alteração estava causando problemas no projeto, precisei reavaliar a implementação e restaurar uma versão anterior do código, conforme registrado no commit `1708d95`. Essa experiência contribuiu para compreender a importância de analisar alterações, identificar possíveis regressões e preservar a estabilidade do sistema durante o desenvolvimento.|
+|**Pensamento analítico**|Durante a implementação do gerenciamento de candidatos, precisei compreender como as classes de modelo, os DAOs, os controllers e as interfaces gráficas se relacionavam. Essa análise foi especialmente importante na reorganização das entidades `Candidato` e `Curriculo`, na migração de `ListView` para `TableView` e na implementação dos filtros por competências e idiomas, permitindo estruturar melhor a apresentação e a consulta dos registros.|
+|**Organização**|Ao longo das sprints, utilizei as ferramentas de acompanhamento da equipe para consultar tarefas e organizar minhas atividades. No desenvolvimento do módulo de gerenciamento de candidatos, trabalhei em diferentes etapas, incluindo modelagem de dados, criação dos DAOs, implementação da interface, integração com o banco e aperfeiçoamento das consultas. Esse processo exigiu acompanhar a evolução das funcionalidades e manter a organização das alterações no repositório.|
+|**Comunicação e trabalho em equipe**|Durante o desenvolvimento do DocEye, participei da integração de funcionalidades que dependiam de diferentes componentes da aplicação, como a interface gráfica, a camada de persistência e o processamento dos documentos. Para compreender as responsabilidades de cada parte e esclarecer dúvidas sobre os requisitos, mantive contato com os integrantes da equipe, buscando alinhar minhas implementações ao funcionamento esperado do sistema e às entregas previstas para as sprints.|
+
 
 ---
 
