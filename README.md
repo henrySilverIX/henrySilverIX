@@ -2,7 +2,7 @@
 
 ## Apresentação do Aluno
 
-<img src="CAMINHO_DA_SUA_FOTO_AQUI" width="200px" alt="Foto de Henrique Tadeu da Silva">
+<img src="Eu.jpg" width="200px" alt="Foto de Henrique Tadeu da Silva">
 
 Olá! Seja bem-vindo(a).
 
