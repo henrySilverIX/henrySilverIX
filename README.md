@@ -52,11 +52,11 @@ Atualmente, estou em busca de oportunidades na área de tecnologia, especialment
 ### Front-end
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3] (https://img.shields.io/badge/C SS3-1572B6?style=for-the-badge&logo= css3&logoColor=white) 
-![Bootstrap] (https://img.shields.io/badge/Bootstrap-563D7C ?style=for-the-badge&logo=bootstrap&logo Color=white) 
-![JavaScript] (https://img.shields.io/badge/JavaSc ript-323330?style=for-the-badge&logo=javas cript&logoColor=F7DF1E) 
-![TypeScript] (https://img.shields.io/badge/TypeScript-007ACC ?style=for-the-badge&logo=types cript&logoColor=white) 
-![React] (https://img.shields.io/badge/Reac t-20232A?style=for-the-badge&logo=rea ct&logoColor=61DAFB) 
+![CSS3](https://img.shields.io/badge/C SS3-1572B6?style=for-the-badge&logo= css3&logoColor=white) 
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C ?style=for-the-badge&logo=bootstrap&logo Color=white) 
+![JavaScript](https://img.shields.io/badge/JavaSc ript-323330?style=for-the-badge&logo=javas cript&logoColor=F7DF1E) 
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC ?style=for-the-badge&logo=types cript&logoColor=white) 
+![React](https://img.shields.io/badge/Reac t-20232A?style=for-the-badge&logo=rea ct&logoColor=61DAFB) 
 
 ### Back-end
 
