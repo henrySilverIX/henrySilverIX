@@ -446,9 +446,9 @@ Minhas principais contribuições foram:
 
 **TecSys**
 
-Área de atuação: **Comércio exterior, importação e soluções para processos aduaneiros**
+Área de atuação: **Comércio exterior, importação e soluções para processos aduaneiros.**
 
-Cliente: **Creonice Honório - Empresa TecSys**
+Cliente: **Creonice Honório — Empresa TecSys**
 
 Professor M2: **Giuliano Bertoti**
 
@@ -456,66 +456,121 @@ Professora P2: **Juliana Pasquini**
 
 ### Problema
 
-O processo de Registro de Importação exige descrições técnicas claras, padronizadas e compatíveis com as exigências da Receita Federal. Informações como part-number, classificação fiscal, fabricante, país de origem e endereço do fabricante precisam ser interpretadas corretamente para evitar ambiguidades no material declarado. Quando esse processo é feito de forma manual, há maior risco de inconsistências, retrabalho, dúvidas sobre o item importado e possíveis penalidades ou multas relacionadas à declaração incorreta dos materiais.
+O processo de Registro de Importação exige descrições técnicas claras, padronizadas e compatíveis com as exigências da Receita Federal. Informações como *Part Number* (PN), classificação fiscal, fabricante, país de origem e endereço do fabricante precisam ser interpretadas corretamente para evitar ambiguidades na identificação dos materiais importados.
+
+Entretanto, essas informações frequentemente estão distribuídas em diferentes documentos, como notas fiscais, catálogos de fabricantes e pedidos de compra, muitas vezes apresentando descrições em outros idiomas ou informações incompletas. A identificação e a organização manual desses dados tornam o processo demorado e sujeito a inconsistências.
+
+Além disso, descrições incorretas ou insuficientes podem provocar retrabalho, dificuldades na classificação fiscal e possíveis penalidades relacionadas ao Registro de Importação, comprometendo a eficiência das operações aduaneiras.
 
 ### Solução
 
-A equipe desenvolveu o **Descriptum**, uma **aplicação web com agente de Inteligência Artificial** para automatizar a análise de documentos de importação. O sistema permite carregar documentos como notas fiscais, pedidos de compra e catálogos, extrair informações relevantes, padronizar descrições técnicas, sugerir classificações fiscais e apoiar a geração de descrições adequadas para o Registro de Importação. A solução busca aumentar a consistência, a confiabilidade e a agilidade do processo aduaneiro.
+A equipe desenvolveu o **Descriptum**, uma **aplicação web com recursos de Inteligência Artificial**, destinada à automatização da análise de documentos e à geração de descrições técnicas para processos de importação.
 
-### Link do Repositório Git
+O sistema permite carregar documentos, como notas fiscais, pedidos de compra e catálogos, para identificar informações relevantes dos produtos, incluindo *Part Numbers*, fabricantes e dados de origem. A solução também utiliza técnicas de extração de informações, consultas a fontes externas e modelos de linguagem para auxiliar na padronização e tradução de descrições técnicas.
 
-[Tecsys Descriptum](https://github.com/CodeDontBlow/Tecsys-Descriptum)
+A plataforma foi desenvolvida utilizando Python e FastAPI no back-end, React no front-end e recursos de Inteligência Artificial executados localmente com Ollama. Também foram utilizadas tecnologias de armazenamento relacional e vetorial para apoiar o processamento e a organização das informações.
+
+O objetivo da solução é proporcionar maior agilidade, consistência e confiabilidade na elaboração das descrições utilizadas no Registro de Importação, contribuindo para a redução de erros e retrabalho.
+
+### Links dos Repositórios Git
+
+- [Tecsys Descriptum — Repositório Principal](https://github.com/CodeDontBlow/Tecsys-Descriptum)
+- [Tecsys Descriptum — Back-end](https://github.com/CodeDontBlow/Tecsys-backend)
+- [Tecsys Descriptum — Front-end](https://github.com/CodeDontBlow/Tecsys-frontend)
 
 ### Tecnologias Utilizadas
 
 | Tecnologia | Utilização no Projeto |
-|-----------|------------------------|
-| Python | Desenvolvimento de funcionalidades relacionadas ao agente de IA e processamento de dados. |
-| FastAPI | Construção da API e dos serviços do back-end. |
-| Ollama | Execução local de modelos de IA utilizados na análise dos documentos. |
-| ChromaDB | Armazenamento vetorial e apoio a consultas semânticas no contexto da aplicação. |
-| PostgreSQL | Armazenamento estruturado das informações extraídas e processadas. |
-| Poetry | Gerenciamento de dependências e ambiente do projeto Python. |
-| Node.js | Apoio ao desenvolvimento de serviços e integração com a aplicação. |
-| React | Desenvolvimento da interface web. |
-| Vite | Ferramenta de build e ambiente de desenvolvimento do front-end. |
-| Docker | Padronização do ambiente de execução da aplicação. |
-| Figma | Prototipação das telas. |
-| Jira | Gestão das tarefas e acompanhamento das sprints. |
-| Git | Versionamento do código-fonte. |
+|---|---|
+| Python | Desenvolvimento da lógica do back-end, processamento de documentos, extração de informações e integração com modelos de IA. |
+| FastAPI | Framework utilizado no desenvolvimento da API e dos serviços responsáveis pelo processamento das requisições da aplicação. |
+| Ollama | Execução local e configuração de modelos de linguagem utilizados na interpretação, geração e tradução de descrições técnicas. |
+| Modelfile (Ollama) | Configuração e personalização do comportamento dos modelos de linguagem para tarefas específicas do projeto. |
+| ChromaDB | Banco de dados vetorial utilizado para armazenamento e recuperação de informações por meio de representações vetoriais. |
+| Embeddings | Representações vetoriais utilizadas para apoiar o processamento e a recuperação de informações textuais. |
+| Web Scraping | Coleta automatizada de informações técnicas sobre produtos em páginas de fornecedores e fabricantes. |
+| PostgreSQL | Armazenamento relacional das informações estruturadas utilizadas pela aplicação. |
+| Poetry | Gerenciamento das dependências e do ambiente de desenvolvimento Python. |
+| Node.js | Ambiente utilizado nas ferramentas e dependências do desenvolvimento da aplicação web. |
+| React | Desenvolvimento da interface web e dos componentes de interação com o usuário. |
+| Vite | Ferramenta utilizada para executar o ambiente de desenvolvimento e realizar o build do front-end. |
+| Docker | Conteinerização e padronização do ambiente de execução dos serviços da aplicação. |
+| Figma | Criação de protótipos e planejamento visual das interfaces. |
+| Jira | Organização das tarefas, acompanhamento do Product Backlog e gerenciamento das sprints. |
+| Git/GitHub | Versionamento do código-fonte, integração de alterações e colaboração entre os integrantes da equipe. |
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **Desenvolvedor**.
+Neste projeto, atuei como **Desenvolvedor Back-end**, trabalhando principalmente com **Python, processamento de documentos PDF, web scraping e integração com modelos de Inteligência Artificial utilizando Ollama**.
 
 Minhas principais contribuições foram:
 
-- Contribuí no desenvolvimento da aplicação voltada à análise de documentos de importação e geração de descrições técnicas com apoio de Inteligência Artificial. **[REVISAR: detalhe se sua atuação foi no front-end, back-end, IA, banco ou documentação.]**
-- Trabalhei com tecnologias como Python, FastAPI, Ollama, ChromaDB, PostgreSQL, React, Vite e Docker em atividades relacionadas à construção da solução. **[REVISAR: mantenha apenas as tecnologias que você realmente utilizou.]**
-- Auxiliei na implementação de funcionalidades relacionadas ao upload de documentos, extração de informações, padronização de dados, sugestão de NCM ou armazenamento dos resultados. **[REVISAR: especifique sua funcionalidade real.]**
-- Participei da organização das entregas por sprint, utilizando ferramentas de gestão e versionamento para acompanhar as tarefas do time.
-- Contribuí com artefatos de desenvolvimento, documentação técnica ou ajustes de interface/API. **[REVISAR: cite artefatos concretos, como endpoints, componentes, fluxos, documentos ou scripts.]**
+- **Desenvolvimento de ferramentas de extração de informações:** implementei e mantive funcionalidades relacionadas à coleta de informações técnicas de produtos, trabalhando nos arquivos `extractor.py` e `scrapper.py`. Essas ferramentas tinham como objetivo obter informações de produtos em fontes externas e disponibilizá-las para as etapas de processamento do sistema.
+
+- **Implementação de web scraping:** trabalhei na coleta automatizada de informações de produtos e na integração entre os resultados do web scraping e os mecanismos de extração. Durante o desenvolvimento, adaptei o código para utilizar arquivos HTML obtidos por scripts de coleta, permitindo o processamento de informações presentes nas páginas consultadas.
+
+- **Aperfeiçoamento dos mecanismos de extração:** realizei ajustes no arquivo `extractor.py` para melhorar a obtenção de informações em fontes externas, incluindo alterações relacionadas à plataforma Findchips. Também adaptei nomes de variáveis e funções para o inglês e organizei partes do código com o objetivo de facilitar sua manutenção.
+
+- **Implementação de funções assíncronas:** trabalhei na adaptação dos módulos de extração e web scraping para utilizar funções assíncronas (`async`), buscando organizar as operações de coleta e processamento de informações de fontes externas.
+
+- **Desenvolvimento do módulo de tradução com IA:** desenvolvi o arquivo `translator.py` e configurei o `modelfile_translator`, destinado à utilização de um modelo de linguagem para tradução de descrições técnicas para o português. Essa funcionalidade foi integrada aos scripts de configuração e aos componentes relacionados à extração de informações.
+
+- **Personalização do modelo de tradução:** realizei ajustes no `modelfile_translator`, adicionando exemplos de tradução para orientar o comportamento do modelo. Também ampliei os casos utilizados nos testes do `translator.py`, incluindo diferentes *Part Numbers* para avaliar o processamento das descrições técnicas.
+
+- **Desenvolvimento do extrator de Part Numbers:** implementei o arquivo `extractor_pn.py`, destinado à identificação e extração de *Part Numbers* presentes em documentos PDF. Essa funcionalidade foi desenvolvida para apoiar a identificação dos códigos dos produtos e sua utilização nas etapas posteriores de processamento.
+
+- **Aprimoramento da precisão na extração de Part Numbers:** desenvolvi o arquivo `extract_pn_from_text.py`, separando regras e exceções utilizadas na identificação dos códigos dos produtos. Posteriormente, realizei ajustes nesse módulo e no `extractor_pn.py` para aperfeiçoar o processo de extração e reduzir a identificação incorreta de informações.
+
+- **Extração de informações de fornecedores:** desenvolvi os arquivos `extract_supplier.py` e `extractor_supplier.py`, destinados à extração de informações relacionadas aos fornecedores dos produtos. Essa implementação também envolveu alterações no `extractor_pn.py` e a utilização de arquivos associados ao armazenamento vetorial do ChromaDB.
+
+- **Manutenção das dependências e organização dos arquivos:** realizei alterações nos arquivos `pyproject.toml` e `poetry.lock` para atualizar dependências do projeto. Também modifiquei o `.gitignore`, reorganizei diretórios e corrigi caminhos de armazenamento dos arquivos produzidos durante o web scraping, evitando que dados temporários fossem incluídos desnecessariamente no versionamento.
+
+- **Integração e manutenção do código:** participei de atividades de integração entre branches, incluindo atualizações da branch `develop` nas branches relacionadas à tradução e extração. Durante o desenvolvimento, também realizei reversões e correções de alterações para manter a compatibilidade das funcionalidades com o restante do projeto.
+
+**Evidências das contribuições no GitHub:**
+
+| Commit | Descrição |
+|---|---|
+| [`0afa0cc`](https://github.com/CodeDontBlow/Tecsys-backend/commit/0afa0cc) | Adição inicial do módulo de extração e ajustes na documentação. |
+| [`bc8972f`](https://github.com/CodeDontBlow/Tecsys-backend/commit/bc8972f) | Padronização de nomes de variáveis e funções do extrator para o inglês. |
+| [`b67866c`](https://github.com/CodeDontBlow/Tecsys-backend/commit/b67866c) | Integração do processamento de arquivos HTML coletados por web scraping. |
+| [`6fa43ca`](https://github.com/CodeDontBlow/Tecsys-backend/commit/6fa43ca) | Correção dos diretórios de saída do web scraping e atualização do `.gitignore`. |
+| [`aafa8b5`](https://github.com/CodeDontBlow/Tecsys-backend/commit/aafa8b5) | Implementação de módulos de extração e web scraping com funções assíncronas. |
+| [`28cd136`](https://github.com/CodeDontBlow/Tecsys-backend/commit/28cd136) | Criação do módulo de tradução e configuração do modelo de IA. |
+| [`2a97014`](https://github.com/CodeDontBlow/Tecsys-backend/commit/2a97014) | Desenvolvimento da tradução de descrições técnicas para o português. |
+| [`ebe9084`](https://github.com/CodeDontBlow/Tecsys-backend/commit/ebe9084) | Inclusão de exemplos de tradução no Modelfile e ampliação dos testes. |
+| [`efd8f76`](https://github.com/CodeDontBlow/Tecsys-backend/commit/efd8f76) | Ajustes no extrator para obtenção de informações do Findchips. |
+| [`d53ad86`](https://github.com/CodeDontBlow/Tecsys-backend/commit/d53ad86) | Implementação do extrator de Part Numbers de documentos PDF. |
+| [`3c1518d`](https://github.com/CodeDontBlow/Tecsys-backend/commit/3c1518d) | Separação das regras e exceções utilizadas na extração de Part Numbers. |
+| [`c1650f2`](https://github.com/CodeDontBlow/Tecsys-backend/commit/c1650f2) | Aperfeiçoamento da precisão do mecanismo de extração de Part Numbers. |
+| [`0c2eaf4`](https://github.com/CodeDontBlow/Tecsys-backend/commit/0c2eaf4) | Implementação dos módulos de extração de informações de fornecedores. |
 
 ### Hard Skills
 
 | Tecnologia | Nível de Proficiência |
-|-----------|------------------------|
+|---|---|
 | Python | Consigo ensinar |
-| FastAPI | Ouvi falar|
+| FastAPI | Ouvi falar |
 | Ollama | Faço com autonomia |
+| Modelfile (Ollama) | Faço com autonomia |
+| Web Scraping | Faço com autonomia |
+| Processamento de PDFs | Faço com ajuda |
 | ChromaDB | Ouvi falar |
 | PostgreSQL | Faço com ajuda |
 | React | Faço com ajuda |
 | Docker | Faço com ajuda |
-| Git | Faço com autonomia |
+| Poetry | Faço com ajuda |
+| Git/GitHub | Faço com autonomia |
 
 ### Soft Skills
 
 | Soft Skill | Exemplo de Aplicação |
-|-----------|-----------------------|
-| Resolução de problemas | Durante o projeto, precisei lidar com a complexidade de transformar documentos de importação em informações estruturadas e úteis para a geração de descrições técnicas. **[REVISAR: cite um problema real envolvendo IA, documento, upload, banco ou API.]** |
-| Comunicação | Alinhei com a equipe como as informações técnicas extraídas dos documentos deveriam ser apresentadas ao usuário, buscando reduzir ambiguidades no processo de validação. **[REVISAR: substitua por uma situação real.]** |
-| Adaptabilidade | O projeto envolveu tecnologias e conceitos de IA aplicados a um domínio específico de comércio exterior, exigindo estudo e adaptação para compreender tanto a parte técnica quanto a regra de negócio. **[REVISAR: cite uma situação real de adaptação.]** |
+|---|---|
+| **Resolução de problemas** | Durante o desenvolvimento do módulo de extração de Part Numbers, identifiquei a necessidade de aperfeiçoar o reconhecimento dos códigos presentes nos documentos PDF. Para isso, desenvolvi regras e exceções específicas no arquivo `extract_pn_from_text.py` e realizei ajustes no `extractor_pn.py`, buscando melhorar a precisão das informações extraídas. Essa experiência contribuiu para desenvolver minha capacidade de identificar limitações de uma implementação e realizar melhorias incrementais no código. |
+| **Pensamento analítico** | Na implementação dos módulos de extração, precisei compreender como informações de produtos, Part Numbers e fornecedores poderiam ser identificadas em documentos e páginas externas. Esse processo exigiu analisar a estrutura dos dados disponíveis e organizar diferentes etapas de processamento, incluindo a coleta de informações, a identificação dos códigos dos produtos e a extração de dados dos fornecedores. |
+| **Adaptabilidade** | Durante o desenvolvimento do projeto, precisei trabalhar com tecnologias e conceitos relacionados à Inteligência Artificial e ao processamento de documentos. Uma situação específica ocorreu na implementação do módulo de tradução, quando utilizei o Ollama e arquivos Modelfile para configurar um modelo de linguagem destinado à tradução de descrições técnicas. Para aprimorar os resultados, adaptei as configurações e acrescentei exemplos de tradução, ampliando meus conhecimentos sobre a utilização e personalização de modelos de IA. |
+| **Organização** | Ao longo das sprints, utilizei as ferramentas de gerenciamento do projeto para acompanhar minhas atividades e compreender os requisitos das funcionalidades. No desenvolvimento dos módulos de extração e web scraping, também realizei ajustes na estrutura de arquivos, na configuração de dependências e nos diretórios de saída dos resultados, contribuindo para manter o ambiente de desenvolvimento organizado e facilitar a manutenção do código. |
+| **Comunicação e trabalho em equipe** | Durante o desenvolvimento do Descriptum, trabalhei em funcionalidades que dependiam da integração com componentes desenvolvidos por outros integrantes da equipe. Um exemplo foi a adaptação do módulo de extração para utilizar arquivos HTML obtidos por um script de web scraping desenvolvido por outro integrante. Essa atividade exigiu compreender o formato dos dados disponíveis e adaptar minha implementação para utilizá-los corretamente, contribuindo para a integração entre os diferentes componentes do projeto. |
 
 ---
 
