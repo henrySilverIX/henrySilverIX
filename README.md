@@ -2,11 +2,11 @@
 
 ## Apresentação do Aluno
 
-<img src="Eu.jpg" width="200px" alt="Foto de Henrique Tadeu da Silva">
+     < img src="Eu.jpg" width="200px" alt="Foto de Henrique Tadeu da Silva"> 
 
 Olá! Seja bem-vindo(a).
 
-Meu nome é **Henrique Tadeu da Silva**, tenho **[sua idade] anos** e sou estudante do curso de **Análise e Desenvolvimento de Sistemas** na **Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal (Fatec-SJC)**.
+Meu nome é **Henrique Tadeu da Silva**, tenho 26 anos e sou estudante do curso de **Análise e Desenvolvimento de Sistemas** na **Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal (Fatec-SJC)**.
 
 Sou de **São José dos Campos, São Paulo**, e tenho interesse nas áreas de desenvolvimento de software, banco de dados, inteligência artificial, infraestrutura, cibersegurança e desenvolvimento de aplicações web e desktop.
 
@@ -16,26 +16,27 @@ Sou de **São José dos Campos, São Paulo**, e tenho interesse nas áreas de de
 
 Atualmente, estou cursando **Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Professor Jessen Vidal**.
 
-Antes de ingressar na Fatec, estudei em **[coloque aqui sua última instituição de ensino antes da Fatec]**.
+Antes de ingressar na Fatec, estudei na Universidade de São Paulo, no curso de Engenharia Elétrica - Ênfase em Eletrônica.
 
 ---
+
 ## Motivação para Entrar na Fatec
 
 Minha motivação para ingressar na Fatec veio do interesse pela área de tecnologia e pelo desejo de desenvolver soluções práticas para problemas reais. O modelo de ensino baseado em projetos, especialmente por meio da metodologia API, foi um fator importante, pois permite aplicar conhecimentos técnicos em situações próximas ao mercado de trabalho.
 
 Durante o curso, tive contato com diferentes tecnologias, metodologias de desenvolvimento e projetos em equipe, o que contribuiu para minha evolução técnica e profissional.
+
 ---
 
 ## Histórico Profissional
 
 Atualmente, estou em busca de oportunidades na área de tecnologia, especialmente em desenvolvimento de software, banco de dados, suporte técnico, infraestrutura, cibersegurança ou áreas relacionadas.
 
-Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalhos anteriores:
-
 - **Empresa:** SuperGeeks
 - **Período:** Maio/2026 - Atualmente
-- **Cargo:** Instrutor
-- **Atividades:** Eu instruo alunos e ensino linguagens de programação como Python e Scratch, além de ensinar desenvolvimento WEB e desenvolvimento de jogos com a engine Godot
+- **Cargo:** Instrutor de Programação e Desenvolvimento de Jogos
+- **Atividades:** Atuei no ensino de programação e desenvolvimento de jogos para estudantes, ministrando aulas de Python, Scratch, HTML, CSS, JavaScript e Godot. Fui responsável por orientar atividades práticas e auxiliar os alunos na compreensão dos conceitos de lógica de programação e desenvolvimento de software.
+
 ---
 
 ## Contatos
@@ -50,38 +51,38 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 
 ### Front-end
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](    https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white    )
+![CSS3] ( https://img.shields.io/badge/C SS3-1572B6?style=for-the-badge&logo= css3&logoColor=white ) 
+![Bootstrap] ( https://img.shields.io/badge/Bootstrap-563D7C ?style=for-the-badge&logo=bootstrap&logo Color=white ) 
+![JavaScript] ( https://img.shields.io/badge/JavaSc ript-323330?style=for-the-badge&logo=javas cript&logoColor=F7DF1E ) 
+![TypeScript] ( https://img.shields.io/badge/TypeScript-007ACC ?style=for-the-badge&logo=types cript&logoColor=white ) 
+![React] ( https://img.shields.io/badge/Reac t-20232A?style=for-the-badge&logo=rea ct&logoColor=61DAFB ) 
 
 ### Back-end
 
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](  https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue  )
+![Java](  https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white  )
+![CSharp](  https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white  )
+![Node.js](  https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white  )
 
 ### Banco de Dados
 
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](   https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white   )
+![MongoDB](   https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white   )
+![SQLite](  https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white  )
+![PostgreSQL](  https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white  )
 
 ### Desenvolvimento de Software
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
+![C](  https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white  )
+![C++](   https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white   )
+![Git](   https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white   )
+![Linux](  https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black  )
 
 ### Outros
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+![Figma](  https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white  )
+![Microsoft Office](  https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white  )
 
 ---
 
@@ -328,7 +329,7 @@ Minhas principais contribuições foram:
 
 **Fatec São José dos Campos — Professor Jessen Vidal (Fatec-SJC)**
 
-Cliente: **Marcus Nascimento**
+Cliente: **Prof. Marcus Nascimento — Coordenador do Curso de Logística da Fatec São José dos Campos**
 
 Professor M2: **Cláudio Etelvino**
 
@@ -720,7 +721,9 @@ Minhas principais contribuições foram:
 | **Adaptabilidade** | Durante o projeto, trabalhei com diferentes tecnologias e estruturas de desenvolvimento, incluindo NestJS no back-end, Next.js no front-end e React Native no mobile. Além disso, precisei adaptar implementações existentes para acompanhar mudanças realizadas no código da equipe. Um exemplo ocorreu durante a integração de branches com a `develop`, quando foram necessários ajustes em arquivos de configuração e serviços para manter a compatibilidade das funcionalidades desenvolvidas. |
 | **Organização** | Ao longo das sprints, acompanhei as tarefas do projeto utilizando Jira e GitHub, organizando minhas atividades de acordo com os requisitos e as funcionalidades sob minha responsabilidade. Como o Orbita possuía repositórios separados para back-end, front-end e mobile, foi necessário acompanhar as alterações em cada componente para manter a integração das funcionalidades. Essa organização foi especialmente importante nas entregas relacionadas à triagem, às mensagens padronizadas e à personalização dos avatares. |
 | **Comunicação e trabalho em equipe** | Durante o desenvolvimento do Orbita, participei de atividades que exigiam integração entre diferentes componentes da aplicação. Um exemplo foi a implementação das mensagens padronizadas, que envolveu a criação de rotas e serviços no back-end e sua utilização pela interface web dos atendentes. Ao longo do projeto, consultei as tarefas e busquei esclarecer dúvidas com os integrantes da equipe sobre requisitos e regras de negócio, procurando manter minhas implementações alinhadas ao funcionamento esperado do sistema. |
+
 ---
+
 # 6º Semestre - 2026-2
 
 ## Projeto: Camplana
