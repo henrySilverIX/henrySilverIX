@@ -19,13 +19,11 @@ Atualmente, estou cursando **Análise e Desenvolvimento de Sistemas** na **Fatec
 Antes de ingressar na Fatec, estudei em **[coloque aqui sua última instituição de ensino antes da Fatec]**.
 
 ---
-
 ## Motivação para Entrar na Fatec
 
 Minha motivação para ingressar na Fatec veio do interesse pela área de tecnologia e pelo desejo de desenvolver soluções práticas para problemas reais. O modelo de ensino baseado em projetos, especialmente por meio da metodologia API, foi um fator importante, pois permite aplicar conhecimentos técnicos em situações próximas ao mercado de trabalho.
 
 Durante o curso, tive contato com diferentes tecnologias, metodologias de desenvolvimento e projetos em equipe, o que contribuiu para minha evolução técnica e profissional.
-
 ---
 
 ## Histórico Profissional
@@ -38,7 +36,6 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 - **Período:** Maio/2026 - Atualmente
 - **Cargo:** Instrutor
 - **Atividades:** Eu instruo alunos e ensino linguagens de programação como Python e Scratch, além de ensinar desenvolvimento WEB e desenvolvimento de jogos com a engine Godot
-
 ---
 
 ## Contatos
@@ -99,6 +96,7 @@ Caso aplicável, adicione aqui experiências profissionais, estágios ou trabalh
 | 3º Semestre | 2025-1 | Fatec-SJC | PontoLog | Plataforma web para visualização e análise de dados de comércio exterior dos estados brasileiros. | [Acessar](https://github.com/CodeDontBlow/PontoLog) |
 | 4º Semestre | 2025-2 | TecSys | Tecsys Descriptum | Aplicação com IA para automatizar análise de documentos de importação e auxiliar no Registro de Importação. | [Acessar](https://github.com/CodeDontBlow/Tecsys-Descriptum) |
 | 5º Semestre | 2026-1 | Pro4Tech | Orbita | Aplicação mobile e painel web para centralizar atendimento ao cliente por chat estruturado e triagem automatizada. | [Acessar](https://github.com/CodeDontBlow/Pro4Tech-ADS5) |
+| 6º Semestre | 2026-2Dom RockCamplana | Plataforma web com IA generativa para estruturar, simular e acompanhar campanhas e regras de comissionamento de vendas. | [Acessar](https://github.com/CodeDontBlow/domrock-Camplana) |
 
 ---
 
