@@ -33,7 +33,7 @@ Durante o curso, tive contato com diferentes tecnologias, metodologias de desenv
 Atualmente, estou em busca de oportunidades na área de tecnologia, especialmente em desenvolvimento de software, banco de dados, suporte técnico, infraestrutura, cibersegurança ou áreas relacionadas.
 
 - **Empresa:** SuperGeeks
-- **Período:** Maio/2026 - Atualmente
+- **Período:** Maio/2026 - Outubro/2026
 - **Cargo:** Instrutor de Programação e Desenvolvimento de Jogos
 - **Atividades:** Atuei no ensino de programação e desenvolvimento de jogos para estudantes, ministrando aulas de Python, Scratch, HTML, CSS, JavaScript e Godot. Fui responsável por orientar atividades práticas e auxiliar os alunos na compreensão dos conceitos de lógica de programação e desenvolvimento de software.
 
@@ -60,29 +60,29 @@ Atualmente, estou em busca de oportunidades na área de tecnologia, especialment
 
 ### Back-end
 
-![Python](  https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue  )
-![Java](  https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white  )
-![CSharp](  https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white  )
-![Node.js](  https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white  )
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Banco de Dados
 
-![MySQL](   https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white   )
-![MongoDB](   https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white   )
-![SQLite](  https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white  )
-![PostgreSQL](  https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white  )
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Desenvolvimento de Software
 
-![C](  https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white  )
-![C++](   https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white   )
-![Git](   https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white   )
-![Linux](  https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black  )
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 
 ### Outros
 
-![Figma](  https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white  )
-![Microsoft Office](  https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white  )
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
 
 ---
 
@@ -333,7 +333,7 @@ Cliente: **Prof. Marcus Nascimento — Coordenador do Curso de Logística da Fat
 
 Professor M2: **Cláudio Etelvino**
 
-Professor P2: **Fernando Massanori**
+Professor P2: **Fernando Masanori Ashikaga**
 
 ### Problema
 
