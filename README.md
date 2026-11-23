@@ -1,10 +1,8 @@
 # Portfólio - Trabalho de Graduação
 
 ## Apresentação do Aluno
- < p align="center">
-   < img src="Eu.jpg" width="200" alt="Foto de Henrique Tadeu da Silva">
- </ p>
- 
+
+
 Olá! Seja bem-vindo(a).
 
 Meu nome é **Henrique Tadeu da Silva**, tenho 26 anos e sou estudante do curso de **Análise e Desenvolvimento de Sistemas** na **Faculdade de Tecnologia de São José dos Campos - Professor Jessen Vidal (Fatec-SJC)**.
@@ -52,7 +50,7 @@ Atualmente, estou em busca de oportunidades na área de tecnologia, especialment
 
 ### Front-end
 
-![HTML5](     https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white     )
+![HTML5](      https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white      )
 ![CSS3] ( https://img.shields.io/badge/C SS3-1572B6?style=for-the-badge&logo= css3&logoColor=white ) 
 ![Bootstrap] ( https://img.shields.io/badge/Bootstrap-563D7C ?style=for-the-badge&logo=bootstrap&logo Color=white ) 
 ![JavaScript] ( https://img.shields.io/badge/JavaSc ript-323330?style=for-the-badge&logo=javas cript&logoColor=F7DF1E ) 
