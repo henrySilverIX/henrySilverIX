@@ -582,7 +582,7 @@ Minhas principais contribuições foram:
 
 **Pro4Tech**
 
-Área de atuação: **Tecnologia da informação, desenvolvimento de soluções digitais e atendimento ao cliente**
+Área de atuação: **Tecnologia da informação, desenvolvimento de soluções digitais e atendimento ao cliente.**
 
 Cliente: **Rafael Monteiro**
 
@@ -590,74 +590,136 @@ Professores: **Gerson Penha** e **Ronaldo Emerick**
 
 ### Problema
 
-Empresas que realizam atendimento ao cliente por múltiplos canais podem enfrentar dificuldades para organizar solicitações, registrar o histórico das interações e direcionar corretamente cada demanda para a equipe responsável. Sem um fluxo estruturado, há risco de perda de informações, retrabalho, demora no atendimento e dificuldade de acompanhamento gerencial. Além disso, atendentes e administradores precisam de uma forma centralizada para visualizar chamados, acompanhar status, configurar triagens e monitorar o desempenho do atendimento.
+Empresas que realizam atendimento ao cliente por diferentes canais frequentemente enfrentam dificuldades para centralizar solicitações, organizar o histórico das interações e direcionar cada demanda para a equipe responsável. A ausência de um fluxo estruturado pode ocasionar perda de informações, retrabalho, demora na resolução de problemas e dificuldades no acompanhamento dos chamados.
+
+Além disso, atendentes precisam compreender rapidamente o contexto das solicitações recebidas, enquanto administradores necessitam de mecanismos para gerenciar equipes, configurar regras de triagem e acompanhar o andamento dos atendimentos.
+
+Essas dificuldades tornam o processo menos eficiente e podem comprometer a experiência do cliente, especialmente quando há diferentes grupos e níveis de suporte envolvidos na resolução das solicitações.
 
 ### Solução
 
-A equipe desenvolveu o **Orbita**, uma solução composta por **aplicação mobile** para clientes e atendentes e uma **interface web** para administradores. A plataforma centraliza o atendimento por meio de chat estruturado, triagem automatizada baseada em regras e perguntas frequentes, organização de atendentes por grupos e níveis de suporte, registro do histórico de interações, abertura, escalonamento e encerramento de chamados. O objetivo é melhorar a experiência do cliente, otimizar o processo de atendimento e oferecer maior controle gerencial.
+A equipe desenvolveu o **Orbita**, uma plataforma de gerenciamento de atendimentos composta por uma **aplicação mobile para clientes e atendentes**, uma **interface web para atendentes e administradores** e um **back-end responsável pelo gerenciamento das regras de negócio e dos dados**.
 
-### Link do Repositório Git
+O sistema centraliza o atendimento por meio de um chat estruturado, permitindo abertura, acompanhamento, escalonamento e encerramento de chamados. A plataforma também conta com triagem automatizada baseada em regras e perguntas frequentes, direcionando as solicitações aos grupos de suporte adequados.
 
-[Orbita / Pro4Tech ADS5](https://github.com/CodeDontBlow/Pro4Tech-ADS5)
+Os atendentes podem consultar informações dos chamados, visualizar o histórico das interações e utilizar recursos para agilizar a comunicação com os clientes. Já os administradores possuem funcionalidades para gerenciar atendentes, grupos de suporte, regras de triagem e informações relacionadas ao funcionamento da plataforma.
+
+A solução foi desenvolvida utilizando **React Native e Expo na aplicação mobile**, **Next.js na interface web** e **NestJS no back-end**, com persistência de informações em PostgreSQL e MongoDB.
+
+### Links dos Repositórios Git
+
+- [Orbita — Repositório Principal](https://github.com/CodeDontBlow/Pro4Tech-ADS5)
+- [Orbita — Back-end](https://github.com/CodeDontBlow/pro4tech-backend)
+- [Orbita — Front-end](https://github.com/CodeDontBlow/pro4tech-frontend)
+- [Orbita — Mobile](https://github.com/CodeDontBlow/pro4tech-mobile)
 
 ### Tecnologias Utilizadas
 
 | Tecnologia | Utilização no Projeto |
-|-----------|------------------------|
-| React Native | Desenvolvimento da aplicação mobile para clientes e atendentes. |
-| Expo | Ambiente de desenvolvimento e execução da aplicação mobile. |
-| Android Studio | Apoio à execução, testes e emulação da aplicação Android. |
-| Next.js | Desenvolvimento da interface web administrativa. |
-| TypeScript | Tipagem e organização do código no front-end mobile, web e back-end. |
-| Nest.js | Desenvolvimento do back-end da aplicação. |
-| Node.js | Ambiente de execução do back-end. |
-| Prisma | ORM utilizado para modelagem e acesso ao banco de dados. |
-| PostgreSQL | Banco de dados relacional utilizado para dados estruturados do sistema. |
-| MongoDB | Banco de dados utilizado para armazenamento de dados não relacionais, como mensagens ou informações do chat. |
-| Docker | Padronização do ambiente de desenvolvimento e execução dos serviços. |
-| CSS | Estilização de partes da interface web. |
-| Tailwind CSS | Estilização da interface por meio de classes utilitárias. |
-| Swagger | Documentação e teste dos endpoints da API. |
-| Figma | Prototipação das telas mobile e web. |
-| Jira | Gestão das tarefas e acompanhamento das sprints. |
-| Git | Versionamento do código-fonte. |
+|---|---|
+| React Native | Desenvolvimento da aplicação mobile para clientes e atendentes, incluindo interfaces de chat, visualização de chamados e componentes de navegação. |
+| Expo | Ambiente utilizado para desenvolvimento, execução e testes da aplicação mobile. |
+| Android Studio | Ferramenta de apoio à execução e aos testes da aplicação Android por meio de emuladores. |
+| Next.js | Framework utilizado para desenvolvimento das interfaces web de atendentes e administradores. |
+| React | Criação de componentes reutilizáveis e implementação das funcionalidades interativas das aplicações web e mobile. |
+| TypeScript | Desenvolvimento tipado das funcionalidades do front-end, back-end e mobile. |
+| NestJS | Framework utilizado no desenvolvimento da API, organização dos módulos e implementação das regras de negócio. |
+| Node.js | Ambiente de execução dos serviços do back-end. |
+| Prisma | ORM utilizado para modelagem, migrações e comunicação com o banco de dados relacional. |
+| PostgreSQL | Banco de dados utilizado para armazenamento de informações estruturadas, como usuários, chamados e regras de negócio. |
+| MongoDB | Banco de dados não relacional utilizado no armazenamento de informações relacionadas às mensagens e conversas do chat. |
+| Mongoose | Biblioteca utilizada para modelagem e gerenciamento dos documentos armazenados no MongoDB. |
+| WebSocket | Tecnologia utilizada na comunicação em tempo real entre os componentes do sistema de chat. |
+| Docker | Conteinerização e padronização dos ambientes de desenvolvimento e execução dos serviços. |
+| CSS | Estilização de componentes e interfaces da aplicação web. |
+| Tailwind CSS | Estilização das interfaces web utilizando classes utilitárias. |
+| Swagger | Documentação dos endpoints e apoio aos testes da API. |
+| Figma | Desenvolvimento dos protótipos e planejamento visual das interfaces mobile e web. |
+| Jira | Gerenciamento das tarefas, acompanhamento do Product Backlog e organização das sprints. |
+| Git/GitHub | Versionamento do código-fonte, colaboração entre os desenvolvedores e integração das funcionalidades implementadas. |
 
 ### Contribuições Pessoais
 
-Neste projeto, atuei como **Desenvolvedor**.
+Neste projeto, atuei como **Desenvolvedor Full Stack**, participando do desenvolvimento do **back-end com NestJS, TypeScript, Prisma e MongoDB**, da **interface web com Next.js e React** e da **aplicação mobile com React Native e Expo**.
 
 Minhas principais contribuições foram:
 
-- Contribuí no desenvolvimento da solução Orbita, composta por aplicação mobile, painel web e back-end para centralização de atendimentos via chamados e chat estruturado. **[REVISAR: especifique em qual frente você atuou: mobile, web, back-end, banco ou documentação.]**
-- Trabalhei com tecnologias como React Native, Expo, Next.js, TypeScript, Nest.js, Prisma, PostgreSQL, MongoDB, Docker e Swagger em atividades relacionadas ao desenvolvimento do sistema. **[REVISAR: mantenha apenas as tecnologias que você realmente utilizou.]**
-- Auxiliei na implementação de funcionalidades relacionadas à abertura de chamados, triagem, visualização de chamados, chat, grupos de suporte, escalonamento ou painel administrativo. **[REVISAR: cite suas funcionalidades reais.]**
-- Participei do versionamento e da integração do código com o repositório da equipe, contribuindo para a organização das entregas por sprint.
-- Também colaborei com ajustes técnicos, testes manuais, documentação e alinhamento das regras de negócio relacionadas ao fluxo de atendimento. **[REVISAR: cite artefatos concretos, como componentes, endpoints, models, migrations ou telas.]**
+- **Desenvolvimento do gerenciamento de atendentes:** implementei componentes do back-end relacionados ao gerenciamento de atendentes, incluindo `agent.controller.ts`, `agent.service.ts`, `agent.repository.ts`, `agent.entity.ts` e `agent.module.ts`. Também realizei alterações no schema do Prisma e nos arquivos de migração, contribuindo para a organização dos dados e das operações relacionadas aos atendentes.
+
+- **Implementação da triagem no chat do atendente:** desenvolvi funcionalidades no back-end para integrar informações da triagem aos chamados. Essa implementação envolveu alterações nos serviços de chamados e regras de triagem, além da criação inicial de um schema relacionado às informações da triagem.
+
+- **Integração do resumo da triagem à interface web:** implementei a apresentação das informações de triagem na página de chat do atendente, utilizando React, Next.js e TypeScript. Para isso, realizei alterações em `chat/page.tsx`, no componente `speechbubble.tsx` e nas interfaces de dados dos chamados, permitindo apresentar ao atendente informações relacionadas à triagem realizada anteriormente.
+
+- **Ajustes de layout do chat:** realizei modificações na interface do atendente para posicionar o resumo da triagem à esquerda da área de conversação. Essa atividade envolveu alterações na página de chat e no arquivo `speechbubble.module.css`, contribuindo para a organização visual das informações apresentadas.
+
+- **Refatoração do armazenamento das informações de triagem:** modifiquei a implementação inicial para reutilizar a mesma coleção do MongoDB empregada no armazenamento das mensagens do chat, evitando a criação de uma coleção adicional. A refatoração envolveu alterações nos módulos de chat e chamados, incluindo `chat.gateway.ts`, `chat.service.ts`, `chat-message.schema.ts`, `ticket.service.ts` e `ticket.repository.ts`, além de ajustes nos contratos de dados e no Prisma.
+
+- **Desenvolvimento da interface de gerenciamento de assuntos dos chamados:** implementei a página administrativa `ticket-subject/page.tsx`, a configuração da tabela e os componentes necessários para integração com os serviços de assuntos dos chamados. Também desenvolvi o hook `use-ticket-subject.ts`, as interfaces TypeScript e o serviço responsável pela comunicação com o back-end, além de adicionar a funcionalidade à navegação administrativa.
+
+- **Implementação de mensagens padronizadas para atendentes:** desenvolvi uma funcionalidade que permite aos atendentes cadastrar e gerenciar mensagens predefinidas para utilização durante os atendimentos. No back-end, criei um módulo específico contendo controller, service, repository, DTOs e migração do banco de dados. No front-end, implementei a página de gerenciamento, tabela de mensagens, hook e serviço de comunicação com a API, além de integrar o recurso à interface de chat e ao menu lateral do atendente.
+
+- **Personalização de imagens padrão dos usuários:** implementei alterações no back-end e nas interfaces para disponibilizar imagens padrão quando clientes ou atendentes não possuíssem fotos de perfil personalizadas. No back-end, realizei modificações nos módulos de usuários, empresas e chamados. No front-end e mobile, adaptei componentes de avatar, cartões de chamados e interfaces de chat para utilizar essas imagens.
+
+- **Desenvolvimento da tela de ajuda no aplicativo mobile:** implementei a página `help.tsx` na aplicação mobile e realizei alterações nas telas de login e cadastro, integrando o acesso à funcionalidade de ajuda ao fluxo de autenticação do aplicativo.
+
+- **Correção de problemas de integração e merge:** durante o desenvolvimento, precisei resolver conflitos decorrentes da integração de alterações da branch `develop` com minhas branches de funcionalidades. Realizei correções em arquivos de configuração, módulos do back-end, páginas do front-end e serviços de autenticação, buscando restabelecer o funcionamento da aplicação após as integrações.
+
+- **Manutenção da integração com MongoDB e Mongoose:** realizei ajustes no `chat.module.ts`, no `app.module.ts` e no schema do Prisma para corrigir problemas relacionados ao uso do Mongoose. Também efetuei correções nos repositórios de usuários e chamados, relacionadas ao funcionamento e à conexão dos componentes do sistema.
+
+- **Versionamento e integração das entregas:** utilizei Git e GitHub para organizar alterações nos três repositórios, acompanhar o desenvolvimento das funcionalidades e integrar implementações realizadas durante as sprints.
+
+**Evidências das contribuições no GitHub:**
+
+| Área | Commit | Descrição |
+|---|---|---|
+| Back-end | [`fd1b69f`](https://github.com/CodeDontBlow/pro4tech-backend/commit/fd1b69f) | Implementação do módulo de gerenciamento de atendentes e alterações no Prisma. |
+| Front-end | [`18ace5c`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/18ace5c) | Desenvolvimento da interface de gerenciamento de assuntos dos chamados. |
+| Back-end | [`a89ad47`](https://github.com/CodeDontBlow/pro4tech-backend/commit/a89ad47) | Implementação da triagem no fluxo de chat do atendente. |
+| Front-end | [`f1f892d`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/f1f892d) | Implementação do resumo da triagem no chat. |
+| Front-end | [`24e9b1e`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/24e9b1e) | Ajustes no posicionamento visual do resumo da triagem. |
+| Back-end | [`02a6dbd`](https://github.com/CodeDontBlow/pro4tech-backend/commit/02a6dbd) | Refatoração do armazenamento dos dados de triagem no MongoDB. |
+| Front-end | [`d749fca`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/d749fca) | Ajustes da interface após a refatoração da triagem. |
+| Back-end | [`47c1c14`](https://github.com/CodeDontBlow/pro4tech-backend/commit/47c1c14) | Correções nos repositórios de chamados e usuários. |
+| Front-end | [`2ccb6ff`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/2ccb6ff) | Correções de integração após merge com a branch `develop`. |
+| Mobile | [`aa9dafe`](https://github.com/CodeDontBlow/pro4tech-mobile/commit/aa9dafe) | Implementação da tela de ajuda no aplicativo mobile. |
+| Back-end | [`b8cd3d7`](https://github.com/CodeDontBlow/pro4tech-backend/commit/b8cd3d7) | Implementação de alterações relacionadas à imagem padrão dos clientes. |
+| Front-end | [`57393c4`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/57393c4) | Integração da imagem padrão do cliente ao front-end. |
+| Mobile | [`818afc1`](https://github.com/CodeDontBlow/pro4tech-mobile/commit/818afc1) | Integração da imagem padrão do cliente ao aplicativo mobile. |
+| Front-end | [`42ab083`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/42ab083) | Ajustes na apresentação de avatares padrão dos atendentes. |
+| Mobile | [`4549100`](https://github.com/CodeDontBlow/pro4tech-mobile/commit/4549100) | Ajustes na apresentação de avatares padrão dos atendentes no mobile. |
+| Back-end | [`c2def79`](https://github.com/CodeDontBlow/pro4tech-backend/commit/c2def79) | Implementação do módulo e CRUD de mensagens padronizadas. |
+| Front-end | [`1467eef`](https://github.com/CodeDontBlow/pro4tech-frontend/commit/1467eef) | Desenvolvimento da interface e integração das mensagens padronizadas. |
+| Back-end | [`fce0ab6`](https://github.com/CodeDontBlow/pro4tech-backend/commit/fce0ab6) | Correção de problema relacionado à integração do Mongoose. |
 
 ### Hard Skills
 
 | Tecnologia | Nível de Proficiência |
-|-----------|------------------------|
+|---|---|
 | React Native | Ouvi falar |
 | Expo | Ouvi falar |
-| Next.js | Faço com autonomia  |
+| React | Faço com ajuda |
+| Next.js | Faço com autonomia |
 | TypeScript | Faço com ajuda |
-| Nest.js |Ouvi falar |
-| Prisma | Faço com ajuda|
+| NestJS | Ouvi falar |
+| Node.js | Faço com autonomia |
+| Prisma | Faço com ajuda |
 | PostgreSQL | Faço com ajuda |
 | MongoDB | Faço com ajuda |
+| Mongoose | Faço com ajuda |
 | Docker | Faço com ajuda |
+| CSS | Consigo ensinar |
 | Swagger | Ouvi falar |
-| Git | Faço com autonomia |
+| Git/GitHub | Faço com autonomia |
 
 ### Soft Skills
 
 | Soft Skill | Exemplo de Aplicação |
-|-----------|-----------------------|
-| Resolução de problemas | Durante o projeto, precisei lidar com desafios técnicos relacionados ao fluxo de chamados, integração entre telas, back-end e banco de dados, buscando manter o atendimento organizado e rastreável. **[REVISAR: cite um bug, conflito, endpoint, tela ou regra real que você resolveu.]** |
-| Comunicação | Alinhei com a equipe como o fluxo de triagem, atendimento e acompanhamento de chamados deveria funcionar para clientes, atendentes e administradores. **[REVISAR: cite uma reunião, sprint ou decisão real.]** |
-| Trabalho em equipe | Colaborei com outros integrantes para integrar funcionalidades entre mobile, web e back-end, respeitando as responsabilidades de cada frente de desenvolvimento. **[REVISAR: cite uma integração real.]** |
-| Organização | Acompanhei tarefas no Jira e mantive o versionamento das entregas pelo Git, contribuindo para que as funcionalidades fossem entregues dentro das sprints planejadas. **[REVISAR: cite issue, branch ou sprint real.]** |
+|---|---|
+| **Resolução de problemas** | Durante a implementação da triagem no chat do atendente, foi necessário revisar a forma como as informações eram armazenadas no MongoDB. A implementação inicial utilizava uma estrutura separada para os dados da triagem, mas posteriormente identifiquei a necessidade de reutilizar a mesma coleção empregada no armazenamento das mensagens. Para resolver essa questão, refatorei os módulos de chat e chamados, adaptando os schemas, serviços e repositórios envolvidos. Essa experiência contribuiu para aprimorar minha capacidade de analisar problemas de integração e reorganizar implementações existentes. |
+| **Pensamento analítico** | Na implementação das mensagens padronizadas dos atendentes, precisei compreender como os dados deveriam ser cadastrados, armazenados e recuperados pelo sistema. A funcionalidade exigiu a criação de um módulo no back-end com controller, service, repository e DTOs, além de sua integração com uma interface web. Essa atividade contribuiu para desenvolver minha capacidade de compreender a relação entre regras de negócio, persistência de dados e funcionalidades disponibilizadas ao usuário. |
+| **Adaptabilidade** | Durante o projeto, trabalhei com diferentes tecnologias e estruturas de desenvolvimento, incluindo NestJS no back-end, Next.js no front-end e React Native no mobile. Além disso, precisei adaptar implementações existentes para acompanhar mudanças realizadas no código da equipe. Um exemplo ocorreu durante a integração de branches com a `develop`, quando foram necessários ajustes em arquivos de configuração e serviços para manter a compatibilidade das funcionalidades desenvolvidas. |
+| **Organização** | Ao longo das sprints, acompanhei as tarefas do projeto utilizando Jira e GitHub, organizando minhas atividades de acordo com os requisitos e as funcionalidades sob minha responsabilidade. Como o Orbita possuía repositórios separados para back-end, front-end e mobile, foi necessário acompanhar as alterações em cada componente para manter a integração das funcionalidades. Essa organização foi especialmente importante nas entregas relacionadas à triagem, às mensagens padronizadas e à personalização dos avatares. |
+| **Comunicação e trabalho em equipe** | Durante o desenvolvimento do Orbita, participei de atividades que exigiam integração entre diferentes componentes da aplicação. Um exemplo foi a implementação das mensagens padronizadas, que envolveu a criação de rotas e serviços no back-end e sua utilização pela interface web dos atendentes. Ao longo do projeto, consultei as tarefas e busquei esclarecer dúvidas com os integrantes da equipe sobre requisitos e regras de negócio, procurando manter minhas implementações alinhadas ao funcionamento esperado do sistema. |
 ---
 # 6º Semestre - 2026-2
 
